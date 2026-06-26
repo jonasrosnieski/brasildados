@@ -1,0 +1,53 @@
+{
+  "fetched_at": "2026-06-26T02:18:57.803Z",
+  "source": "BCB/SGS",
+  "source_url": "https://api.bcb.gov.br",
+  "series": [
+    {
+      "name": "ipca_mensal",
+      "file": "ipca_mensal.json",
+      "count": 557,
+      "range": "1980-01-01 → 2026-05-01"
+    },
+    {
+      "name": "ipca_12meses",
+      "file": "ipca_12meses.json",
+      "count": 546,
+      "range": "1980-12-01 → 2026-05-01"
+    },
+    {
+      "name": "pib_variacao_trimestral",
+      "file": "pib_variacao_trimestral.json",
+      "count": 436,
+      "range": "1990-02-01 → 2026-05-01"
+    },
+    {
+      "name": "pib_nominal_bi_brl",
+      "file": "pib_nominal_bi_brl.json",
+      "count": 479,
+      "range": "1986-08-01 → 2026-06-01"
+    },
+    {
+      "name": "selic_meta_anual",
+      "file": "selic_meta_anual.json",
+      "count": 479,
+      "range": "1986-08-01 → 2026-06-01"
+    },
+    {
+      "name": "cambio_usd_brl",
+      "error": "HTTP 406 para série 1"
+    },
+    {
+      "name": "desemprego_pme",
+      "file": "desemprego_pme.json",
+      "count": 63,
+      "range": "1963-01-01 → 2025-01-01"
+    },
+    {
+      "name": "desemprego_pnadc",
+      "file": "desemprego_pnadc.json",
+      "count": 170,
+      "range": "2012-03-01 → 2026-04-01"
+    }
+  ]
+}

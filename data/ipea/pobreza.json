@@ -1,0 +1,14 @@
+{
+  "code": "POBREZA",
+  "name": "pobreza",
+  "description": "Percentual da população em situação de pobreza",
+  "unit": "%",
+  "category": "social",
+  "subcategory": "pobreza",
+  "source": "IPEA",
+  "source_code": "POBREZA",
+  "source_url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='POBREZA')",
+  "fetched_at": "2026-06-26T02:19:32.016Z",
+  "count": 0,
+  "data": []
+}

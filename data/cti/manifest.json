@@ -1,0 +1,44 @@
+{
+  "fetched_at": "2026-06-26T03:24:57.384Z",
+  "sources": [
+    "World Bank Open Data",
+    "IPEADATA"
+  ],
+  "series": [
+    {
+      "name": "gasto_pd_pib_pct",
+      "file": "gasto_pd_pib_pct.json",
+      "count": 24,
+      "range": "2000-01-01 → 2023-01-01"
+    },
+    {
+      "name": "pesquisadores_por_milhao",
+      "file": "pesquisadores_por_milhao.json",
+      "count": 15,
+      "range": "2000-01-01 → 2014-01-01"
+    },
+    {
+      "name": "patentes_residentes",
+      "file": "patentes_residentes.json",
+      "count": 42,
+      "range": "1980-01-01 → 2021-01-01"
+    },
+    {
+      "name": "gasto_federal_cti_direto",
+      "error": "série vazia"
+    },
+    {
+      "name": "gasto_federal_cti_total",
+      "error": "série vazia"
+    },
+    {
+      "name": "pesquisadores_total",
+      "error": "série vazia"
+    },
+    {
+      "name": "cti_pib_pct_ipea",
+      "error": "série vazia"
+    }
+  ],
+  "ipea_search": []
+}

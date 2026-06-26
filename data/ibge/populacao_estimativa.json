@@ -1,0 +1,97 @@
+{
+  "name": "populacao_estimativa",
+  "description": "Estimativa da população residente (IBGE, anual)",
+  "unit": "pessoas",
+  "category": "social",
+  "subcategory": "populacao",
+  "source": "IBGE/SIDRA",
+  "source_url": "https://apisidra.ibge.gov.br/values/t/6579/n1/all/v/9324/p/all/d/v9324%200",
+  "fetched_at": "2026-06-26T02:23:38.496Z",
+  "count": 21,
+  "data": [
+    {
+      "date": "2001-01-01",
+      "value": 172385826
+    },
+    {
+      "date": "2002-01-01",
+      "value": 174632960
+    },
+    {
+      "date": "2003-01-01",
+      "value": 176871437
+    },
+    {
+      "date": "2004-01-01",
+      "value": 181569056
+    },
+    {
+      "date": "2005-01-01",
+      "value": 184184264
+    },
+    {
+      "date": "2006-01-01",
+      "value": 186770562
+    },
+    {
+      "date": "2008-01-01",
+      "value": 189605006
+    },
+    {
+      "date": "2009-01-01",
+      "value": 191480630
+    },
+    {
+      "date": "2011-01-01",
+      "value": 192379287
+    },
+    {
+      "date": "2012-01-01",
+      "value": 193904015
+    },
+    {
+      "date": "2013-01-01",
+      "value": 201032714
+    },
+    {
+      "date": "2014-01-01",
+      "value": 202768562
+    },
+    {
+      "date": "2015-01-01",
+      "value": 204450049
+    },
+    {
+      "date": "2016-01-01",
+      "value": 206081432
+    },
+    {
+      "date": "2017-01-01",
+      "value": 207660929
+    },
+    {
+      "date": "2018-01-01",
+      "value": 208494900
+    },
+    {
+      "date": "2019-01-01",
+      "value": 210147125
+    },
+    {
+      "date": "2020-01-01",
+      "value": 211755692
+    },
+    {
+      "date": "2021-01-01",
+      "value": 213317639
+    },
+    {
+      "date": "2024-01-01",
+      "value": 212583750
+    },
+    {
+      "date": "2025-01-01",
+      "value": 213421037
+    }
+  ]
+}

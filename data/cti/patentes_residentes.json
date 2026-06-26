@@ -1,0 +1,223 @@
+{
+  "code": "IP.PAT.RESD",
+  "name": "patentes_residentes",
+  "description": "Pedidos de patentes de residentes",
+  "unit": "número",
+  "category": "ciencia_tecnologia",
+  "subcategory": "inovacao",
+  "source": "World Bank",
+  "fetched_at": "2026-06-26T03:25:00.104Z",
+  "count": 42,
+  "data": [
+    {
+      "date": "1980-01-01",
+      "value": 2149,
+      "source": "World Bank"
+    },
+    {
+      "date": "1981-01-01",
+      "value": 2171,
+      "source": "World Bank"
+    },
+    {
+      "date": "1982-01-01",
+      "value": 2116,
+      "source": "World Bank"
+    },
+    {
+      "date": "1983-01-01",
+      "value": 2302,
+      "source": "World Bank"
+    },
+    {
+      "date": "1984-01-01",
+      "value": 2062,
+      "source": "World Bank"
+    },
+    {
+      "date": "1985-01-01",
+      "value": 1954,
+      "source": "World Bank"
+    },
+    {
+      "date": "1986-01-01",
+      "value": 1855,
+      "source": "World Bank"
+    },
+    {
+      "date": "1987-01-01",
+      "value": 2451,
+      "source": "World Bank"
+    },
+    {
+      "date": "1988-01-01",
+      "value": 2338,
+      "source": "World Bank"
+    },
+    {
+      "date": "1989-01-01",
+      "value": 2323,
+      "source": "World Bank"
+    },
+    {
+      "date": "1990-01-01",
+      "value": 2389,
+      "source": "World Bank"
+    },
+    {
+      "date": "1991-01-01",
+      "value": 2319,
+      "source": "World Bank"
+    },
+    {
+      "date": "1992-01-01",
+      "value": 2100,
+      "source": "World Bank"
+    },
+    {
+      "date": "1993-01-01",
+      "value": 2429,
+      "source": "World Bank"
+    },
+    {
+      "date": "1994-01-01",
+      "value": 2269,
+      "source": "World Bank"
+    },
+    {
+      "date": "1995-01-01",
+      "value": 2707,
+      "source": "World Bank"
+    },
+    {
+      "date": "1996-01-01",
+      "value": 2611,
+      "source": "World Bank"
+    },
+    {
+      "date": "1997-01-01",
+      "value": 2756,
+      "source": "World Bank"
+    },
+    {
+      "date": "1998-01-01",
+      "value": 2491,
+      "source": "World Bank"
+    },
+    {
+      "date": "1999-01-01",
+      "value": 2816,
+      "source": "World Bank"
+    },
+    {
+      "date": "2000-01-01",
+      "value": 3179,
+      "source": "World Bank"
+    },
+    {
+      "date": "2001-01-01",
+      "value": 3439,
+      "source": "World Bank"
+    },
+    {
+      "date": "2002-01-01",
+      "value": 3481,
+      "source": "World Bank"
+    },
+    {
+      "date": "2003-01-01",
+      "value": 3866,
+      "source": "World Bank"
+    },
+    {
+      "date": "2004-01-01",
+      "value": 4044,
+      "source": "World Bank"
+    },
+    {
+      "date": "2005-01-01",
+      "value": 4054,
+      "source": "World Bank"
+    },
+    {
+      "date": "2006-01-01",
+      "value": 3956,
+      "source": "World Bank"
+    },
+    {
+      "date": "2007-01-01",
+      "value": 4194,
+      "source": "World Bank"
+    },
+    {
+      "date": "2008-01-01",
+      "value": 4280,
+      "source": "World Bank"
+    },
+    {
+      "date": "2009-01-01",
+      "value": 4271,
+      "source": "World Bank"
+    },
+    {
+      "date": "2010-01-01",
+      "value": 4228,
+      "source": "World Bank"
+    },
+    {
+      "date": "2011-01-01",
+      "value": 4695,
+      "source": "World Bank"
+    },
+    {
+      "date": "2012-01-01",
+      "value": 4798,
+      "source": "World Bank"
+    },
+    {
+      "date": "2013-01-01",
+      "value": 4959,
+      "source": "World Bank"
+    },
+    {
+      "date": "2014-01-01",
+      "value": 4659,
+      "source": "World Bank"
+    },
+    {
+      "date": "2015-01-01",
+      "value": 4641,
+      "source": "World Bank"
+    },
+    {
+      "date": "2016-01-01",
+      "value": 5200,
+      "source": "World Bank"
+    },
+    {
+      "date": "2017-01-01",
+      "value": 5480,
+      "source": "World Bank"
+    },
+    {
+      "date": "2018-01-01",
+      "value": 4980,
+      "source": "World Bank"
+    },
+    {
+      "date": "2019-01-01",
+      "value": 5464,
+      "source": "World Bank"
+    },
+    {
+      "date": "2020-01-01",
+      "value": 5280,
+      "source": "World Bank"
+    },
+    {
+      "date": "2021-01-01",
+      "value": 4666,
+      "source": "World Bank"
+    }
+  ]
+}

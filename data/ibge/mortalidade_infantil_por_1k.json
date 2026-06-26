@@ -1,0 +1,82 @@
+{
+  "name": "mortalidade_infantil_por_1k",
+  "category": "saude",
+  "subcategory": "mortalidade",
+  "unit": "por_1k",
+  "description": "Taxa de mortalidade infantil (por 1.000 nascidos vivos)",
+  "source": "IBGE/PNAD/DATASUS (curado)",
+  "fetched_at": "2026-06-26T02:23:39.310Z",
+  "count": 14,
+  "data": [
+    {
+      "date": "1960-01-01",
+      "value": 124,
+      "source": "IBGE/estimativas"
+    },
+    {
+      "date": "1970-01-01",
+      "value": 114.8,
+      "source": "IBGE/estimativas"
+    },
+    {
+      "date": "1980-01-01",
+      "value": 82.8,
+      "source": "IBGE/estimativas"
+    },
+    {
+      "date": "1990-01-01",
+      "value": 48.3,
+      "source": "DATASUS/SIM"
+    },
+    {
+      "date": "1995-01-01",
+      "value": 38,
+      "source": "DATASUS/SIM"
+    },
+    {
+      "date": "2000-01-01",
+      "value": 29.7,
+      "source": "DATASUS/SIM"
+    },
+    {
+      "date": "2003-01-01",
+      "value": 25.6,
+      "source": "DATASUS/SIM"
+    },
+    {
+      "date": "2006-01-01",
+      "value": 22.5,
+      "source": "DATASUS/SIM"
+    },
+    {
+      "date": "2010-01-01",
+      "value": 16.7,
+      "source": "DATASUS/SIM"
+    },
+    {
+      "date": "2014-01-01",
+      "value": 14,
+      "source": "DATASUS/SIM"
+    },
+    {
+      "date": "2018-01-01",
+      "value": 12.4,
+      "source": "DATASUS/SIM"
+    },
+    {
+      "date": "2020-01-01",
+      "value": 12.9,
+      "source": "DATASUS/SIM (COVID impacto)"
+    },
+    {
+      "date": "2022-01-01",
+      "value": 12,
+      "source": "DATASUS/SIM"
+    },
+    {
+      "date": "2023-01-01",
+      "value": 11.8,
+      "source": "DATASUS/SIM"
+    }
+  ]
+}

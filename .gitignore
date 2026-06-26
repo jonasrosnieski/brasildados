@@ -1,0 +1,13 @@
+node_modules/
+logs/
+*.log
+.env
+.env.*
+
+# Bulk downloads (ficam em D:\brasildados)
+downloads/
+*.zip
+*.7z
+
+# Dados brutos grandes — JSON curados em data/ vão para o repo
+data/tse/*.zip

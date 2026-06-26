@@ -1,0 +1,289 @@
+{
+  "source": "TSE/atas_oficiais",
+  "source_url": "https://www.tse.jus.br/eleicoes/eleicoes-anteriores",
+  "description": "Resultados eleitorais históricos curados das atas oficiais do TSE (1945–1989)",
+  "fetched_at": "2026-06-26T02:18:31.210Z",
+  "elections": [
+    {
+      "year": 1945,
+      "round": 1,
+      "candidates": [
+        {
+          "name": "Eurico Gaspar Dutra",
+          "party": "PSD/PTB",
+          "votes": 3251507,
+          "vote_pct": 55.39,
+          "result": "eleito"
+        },
+        {
+          "name": "Eduardo Gomes",
+          "party": "UDN",
+          "votes": 2039341,
+          "vote_pct": 34.73,
+          "result": "nao_eleito"
+        },
+        {
+          "name": "Iedo Fiúza",
+          "party": "PCB",
+          "votes": 569818,
+          "vote_pct": 9.7,
+          "result": "nao_eleito"
+        }
+      ],
+      "total_valid_votes": 5873364,
+      "total_voters": 7459849,
+      "turnout_pct": 78.7,
+      "notes": "Primeira eleição direta após o Estado Novo. Voto obrigatório para alfabetizados."
+    },
+    {
+      "year": 1950,
+      "round": 1,
+      "candidates": [
+        {
+          "name": "Getúlio Vargas",
+          "party": "PTB/PSP",
+          "votes": 3849040,
+          "vote_pct": 48.74,
+          "result": "eleito"
+        },
+        {
+          "name": "Eduardo Gomes",
+          "party": "UDN",
+          "votes": 2342384,
+          "vote_pct": 29.67,
+          "result": "nao_eleito"
+        },
+        {
+          "name": "Cristiano Machado",
+          "party": "PSD",
+          "votes": 1697193,
+          "vote_pct": 21.49,
+          "result": "nao_eleito"
+        }
+      ],
+      "total_valid_votes": 7893320,
+      "total_voters": 11455150,
+      "turnout_pct": 68.9
+    },
+    {
+      "year": 1955,
+      "round": 1,
+      "candidates": [
+        {
+          "name": "Juscelino Kubitschek",
+          "party": "PSD/PTB",
+          "votes": 3077411,
+          "vote_pct": 35.68,
+          "result": "eleito"
+        },
+        {
+          "name": "Juarez Távora",
+          "party": "UDN",
+          "votes": 2610462,
+          "vote_pct": 30.27,
+          "result": "nao_eleito"
+        },
+        {
+          "name": "Adhemar de Barros",
+          "party": "PSP",
+          "votes": 2222725,
+          "vote_pct": 25.78,
+          "result": "nao_eleito"
+        },
+        {
+          "name": "Plínio Salgado",
+          "party": "PRP",
+          "votes": 714995,
+          "vote_pct": 8.29,
+          "result": "nao_eleito"
+        }
+      ],
+      "total_valid_votes": 8625593,
+      "total_voters": 15094083,
+      "turnout_pct": 57.1
+    },
+    {
+      "year": 1960,
+      "round": 1,
+      "candidates": [
+        {
+          "name": "Jânio Quadros",
+          "party": "PTN/UDN",
+          "votes": 5636623,
+          "vote_pct": 48.26,
+          "result": "eleito"
+        },
+        {
+          "name": "Henrique Lott",
+          "party": "PSD/PTB",
+          "votes": 3846825,
+          "vote_pct": 32.93,
+          "result": "nao_eleito"
+        },
+        {
+          "name": "Adhemar de Barros",
+          "party": "PSP",
+          "votes": 2195709,
+          "vote_pct": 18.79,
+          "result": "nao_eleito"
+        }
+      ],
+      "total_valid_votes": 11679157,
+      "total_voters": 15543332,
+      "turnout_pct": 75.1,
+      "notes": "Última eleição direta antes do regime militar. JK não pôde concorrer à reeleição."
+    },
+    {
+      "year": 1964,
+      "round": 1,
+      "type": "indireta",
+      "candidates": [
+        {
+          "name": "Humberto Castelo Branco",
+          "party": "Militar",
+          "votes": 361,
+          "vote_pct": 100,
+          "result": "eleito"
+        }
+      ],
+      "notes": "Eleição indireta pelo Congresso Nacional após golpe de 1964. 361 votos de congressistas."
+    },
+    {
+      "year": 1966,
+      "round": 1,
+      "type": "indireta",
+      "candidates": [
+        {
+          "name": "Artur Costa e Silva",
+          "party": "ARENA",
+          "votes": null,
+          "vote_pct": null,
+          "result": "eleito"
+        }
+      ],
+      "notes": "Eleição indireta. Candidato único da ARENA."
+    },
+    {
+      "year": 1969,
+      "round": 1,
+      "type": "indireta",
+      "candidates": [
+        {
+          "name": "Emílio Médici",
+          "party": "ARENA",
+          "votes": null,
+          "vote_pct": null,
+          "result": "eleito"
+        }
+      ],
+      "notes": "Indicado pela Junta Militar após Costa e Silva sofrer derrame. Ratificado pelo Congresso."
+    },
+    {
+      "year": 1973,
+      "round": 1,
+      "type": "indireta",
+      "candidates": [
+        {
+          "name": "Ernesto Geisel",
+          "party": "ARENA",
+          "votes": 400,
+          "vote_pct": null,
+          "result": "eleito"
+        }
+      ],
+      "notes": "Eleição indireta pelo Colégio Eleitoral. 400 eleitores indiretos."
+    },
+    {
+      "year": 1978,
+      "round": 1,
+      "type": "indireta",
+      "candidates": [
+        {
+          "name": "João Figueiredo",
+          "party": "ARENA",
+          "votes": 355,
+          "vote_pct": null,
+          "result": "eleito"
+        }
+      ],
+      "notes": "Última eleição indireta do regime militar. Último presidente militar."
+    },
+    {
+      "year": 1985,
+      "round": 1,
+      "type": "indireta",
+      "candidates": [
+        {
+          "name": "Tancredo Neves",
+          "party": "PMDB",
+          "votes": 480,
+          "vote_pct": null,
+          "result": "eleito"
+        },
+        {
+          "name": "Paulo Maluf",
+          "party": "PDS",
+          "votes": 180,
+          "vote_pct": null,
+          "result": "nao_eleito"
+        }
+      ],
+      "total_voters": 686,
+      "notes": "Eleição indireta pelo Colégio Eleitoral. Tancredo faleceu antes da posse; assumiu José Sarney (vice)."
+    },
+    {
+      "year": 1989,
+      "round": 1,
+      "candidates": [
+        {
+          "name": "Fernando Collor",
+          "party": "PRN",
+          "votes": 20611011,
+          "vote_pct": 28.52,
+          "result": "segundo_turno"
+        },
+        {
+          "name": "Lula",
+          "party": "PT",
+          "votes": 11622673,
+          "vote_pct": 16.08,
+          "result": "segundo_turno"
+        },
+        {
+          "name": "Leonel Brizola",
+          "party": "PDT",
+          "votes": 11168228,
+          "vote_pct": 15.45,
+          "result": "nao_eleito"
+        }
+      ],
+      "total_valid_votes": 72257773,
+      "total_voters": 82093847,
+      "turnout_pct": 88,
+      "notes": "Primeira eleição direta após a redemocratização (29 anos sem voto direto para presidente)."
+    },
+    {
+      "year": 1989,
+      "round": 2,
+      "candidates": [
+        {
+          "name": "Fernando Collor",
+          "party": "PRN",
+          "votes": 35089998,
+          "vote_pct": 49.94,
+          "result": "eleito"
+        },
+        {
+          "name": "Lula",
+          "party": "PT",
+          "votes": 31076364,
+          "vote_pct": 44.23,
+          "result": "nao_eleito"
+        }
+      ],
+      "total_valid_votes": 70248467,
+      "total_voters": 82093847,
+      "turnout_pct": 85.6
+    }
+  ]
+}

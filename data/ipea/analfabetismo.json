@@ -1,0 +1,14 @@
+{
+  "code": "ANDA12_ANABET12",
+  "name": "analfabetismo",
+  "description": "Taxa de analfabetismo (%, pop >15 anos)",
+  "unit": "%",
+  "category": "educacao",
+  "subcategory": "analfabetismo",
+  "source": "IPEA",
+  "source_code": "ANDA12_ANABET12",
+  "source_url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='ANDA12_ANABET12')",
+  "fetched_at": "2026-06-26T02:19:28.837Z",
+  "count": 0,
+  "data": []
+}

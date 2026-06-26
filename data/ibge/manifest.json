@@ -1,0 +1,43 @@
+{
+  "fetched_at": "2026-06-26T02:23:37.479Z",
+  "source": "IBGE/SIDRA",
+  "source_url": "https://apisidra.ibge.gov.br",
+  "series": [
+    {
+      "name": "populacao_censo",
+      "file": "populacao_censo.json",
+      "count": 5,
+      "range": "1970-01-01 → 2010-01-01"
+    },
+    {
+      "name": "populacao_estimativa",
+      "file": "populacao_estimativa.json",
+      "count": 21,
+      "range": "2001-01-01 → 2025-01-01"
+    },
+    {
+      "name": "analfabetismo_pct",
+      "file": "analfabetismo_pct.json",
+      "count": 20,
+      "type": "historical_curated"
+    },
+    {
+      "name": "gini",
+      "file": "gini.json",
+      "count": 20,
+      "type": "historical_curated"
+    },
+    {
+      "name": "mortalidade_infantil_por_1k",
+      "file": "mortalidade_infantil_por_1k.json",
+      "count": 14,
+      "type": "historical_curated"
+    },
+    {
+      "name": "pobreza_extrema_pct",
+      "file": "pobreza_extrema_pct.json",
+      "count": 13,
+      "type": "historical_curated"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "code": "MS_MORTINF",
+  "name": "mortalidade_infantil",
+  "description": "Taxa de mortalidade infantil (por 1.000 nascidos)",
+  "unit": "por_1k",
+  "category": "saude",
+  "subcategory": "mortalidade",
+  "source": "IPEA",
+  "source_code": "MS_MORTINF",
+  "source_url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='MS_MORTINF')",
+  "fetched_at": "2026-06-26T02:19:29.885Z",
+  "count": 0,
+  "data": []
+}

@@ -1,0 +1,77 @@
+{
+  "name": "pobreza_extrema_pct",
+  "category": "social",
+  "subcategory": "pobreza",
+  "unit": "%",
+  "description": "% população em extrema pobreza (<US$2.15/dia PPC 2017)",
+  "source": "IBGE/PNAD/DATASUS (curado)",
+  "fetched_at": "2026-06-26T02:23:39.311Z",
+  "count": 13,
+  "data": [
+    {
+      "date": "2001-01-01",
+      "value": 13.6,
+      "source": "PNAD 2001/BM"
+    },
+    {
+      "date": "2003-01-01",
+      "value": 14.8,
+      "source": "PNAD 2003/BM"
+    },
+    {
+      "date": "2005-01-01",
+      "value": 11.5,
+      "source": "PNAD 2005/BM"
+    },
+    {
+      "date": "2007-01-01",
+      "value": 9,
+      "source": "PNAD 2007/BM"
+    },
+    {
+      "date": "2009-01-01",
+      "value": 8.1,
+      "source": "PNAD 2009/BM"
+    },
+    {
+      "date": "2011-01-01",
+      "value": 6.5,
+      "source": "PNAD 2011/BM"
+    },
+    {
+      "date": "2013-01-01",
+      "value": 5.3,
+      "source": "PNAD 2013/BM"
+    },
+    {
+      "date": "2015-01-01",
+      "value": 5.1,
+      "source": "PNAD-C 2015/BM"
+    },
+    {
+      "date": "2017-01-01",
+      "value": 6,
+      "source": "PNAD-C 2017/BM"
+    },
+    {
+      "date": "2019-01-01",
+      "value": 5.5,
+      "source": "PNAD-C 2019/BM"
+    },
+    {
+      "date": "2021-01-01",
+      "value": 5.1,
+      "source": "PNAD-C 2021 (com AE)/BM"
+    },
+    {
+      "date": "2022-01-01",
+      "value": 4.4,
+      "source": "PNAD-C 2022/BM"
+    },
+    {
+      "date": "2023-01-01",
+      "value": 4.3,
+      "source": "PNAD-C 2023/BM"
+    }
+  ]
+}

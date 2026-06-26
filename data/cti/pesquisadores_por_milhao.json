@@ -1,0 +1,88 @@
+{
+  "code": "SP.POP.SCIE.RD.P6",
+  "name": "pesquisadores_por_milhao",
+  "description": "Pesquisadores em P&D (por milhão de habitantes)",
+  "unit": "por milhão",
+  "category": "ciencia_tecnologia",
+  "subcategory": "recursos_humanos",
+  "source": "World Bank",
+  "fetched_at": "2026-06-26T03:24:59.096Z",
+  "count": 15,
+  "data": [
+    {
+      "date": "2000-01-01",
+      "value": 298.53981,
+      "source": "World Bank"
+    },
+    {
+      "date": "2001-01-01",
+      "value": 341.27926,
+      "source": "World Bank"
+    },
+    {
+      "date": "2002-01-01",
+      "value": 403.16475,
+      "source": "World Bank"
+    },
+    {
+      "date": "2003-01-01",
+      "value": 428.48507,
+      "source": "World Bank"
+    },
+    {
+      "date": "2004-01-01",
+      "value": 489.27106,
+      "source": "World Bank"
+    },
+    {
+      "date": "2005-01-01",
+      "value": 515.766,
+      "source": "World Bank"
+    },
+    {
+      "date": "2006-01-01",
+      "value": 550.49741,
+      "source": "World Bank"
+    },
+    {
+      "date": "2007-01-01",
+      "value": 562.55469,
+      "source": "World Bank"
+    },
+    {
+      "date": "2008-01-01",
+      "value": 598.65285,
+      "source": "World Bank"
+    },
+    {
+      "date": "2009-01-01",
+      "value": 634.14103,
+      "source": "World Bank"
+    },
+    {
+      "date": "2010-01-01",
+      "value": 696.09998,
+      "source": "World Bank"
+    },
+    {
+      "date": "2011-01-01",
+      "value": 749.17174,
+      "source": "World Bank"
+    },
+    {
+      "date": "2012-01-01",
+      "value": 801.40894,
+      "source": "World Bank"
+    },
+    {
+      "date": "2013-01-01",
+      "value": 852.71699,
+      "source": "World Bank"
+    },
+    {
+      "date": "2014-01-01",
+      "value": 903.20079,
+      "source": "World Bank"
+    }
+  ]
+}

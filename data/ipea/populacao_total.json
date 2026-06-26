@@ -1,0 +1,14 @@
+{
+  "code": "POPH",
+  "name": "populacao_total",
+  "description": "População total (em milhares)",
+  "unit": "mil",
+  "category": "social",
+  "subcategory": "populacao",
+  "source": "IPEA",
+  "source_code": "POPH",
+  "source_url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='POPH')",
+  "fetched_at": "2026-06-26T02:19:27.799Z",
+  "count": 0,
+  "data": []
+}

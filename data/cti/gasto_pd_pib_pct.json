@@ -1,0 +1,133 @@
+{
+  "code": "GB.XPD.RSDV.GD.ZS",
+  "name": "gasto_pd_pib_pct",
+  "description": "Gasto em P&D (% do PIB)",
+  "unit": "% do PIB",
+  "category": "ciencia_tecnologia",
+  "subcategory": "investimento",
+  "source": "World Bank",
+  "fetched_at": "2026-06-26T03:24:58.018Z",
+  "count": 24,
+  "data": [
+    {
+      "date": "2000-01-01",
+      "value": 1.04752,
+      "source": "World Bank"
+    },
+    {
+      "date": "2001-01-01",
+      "value": 1.06197,
+      "source": "World Bank"
+    },
+    {
+      "date": "2002-01-01",
+      "value": 1.00967,
+      "source": "World Bank"
+    },
+    {
+      "date": "2003-01-01",
+      "value": 0.99939,
+      "source": "World Bank"
+    },
+    {
+      "date": "2004-01-01",
+      "value": 0.96343,
+      "source": "World Bank"
+    },
+    {
+      "date": "2005-01-01",
+      "value": 1.00247,
+      "source": "World Bank"
+    },
+    {
+      "date": "2006-01-01",
+      "value": 0.98807,
+      "source": "World Bank"
+    },
+    {
+      "date": "2007-01-01",
+      "value": 1.08138,
+      "source": "World Bank"
+    },
+    {
+      "date": "2008-01-01",
+      "value": 1.12904,
+      "source": "World Bank"
+    },
+    {
+      "date": "2009-01-01",
+      "value": 1.11866,
+      "source": "World Bank"
+    },
+    {
+      "date": "2010-01-01",
+      "value": 1.15992,
+      "source": "World Bank"
+    },
+    {
+      "date": "2011-01-01",
+      "value": 1.13966,
+      "source": "World Bank"
+    },
+    {
+      "date": "2012-01-01",
+      "value": 1.12684,
+      "source": "World Bank"
+    },
+    {
+      "date": "2013-01-01",
+      "value": 1.19567,
+      "source": "World Bank"
+    },
+    {
+      "date": "2014-01-01",
+      "value": 1.26971,
+      "source": "World Bank"
+    },
+    {
+      "date": "2015-01-01",
+      "value": 1.28464,
+      "source": "World Bank"
+    },
+    {
+      "date": "2016-01-01",
+      "value": 1.19584,
+      "source": "World Bank"
+    },
+    {
+      "date": "2017-01-01",
+      "value": 1.1175,
+      "source": "World Bank"
+    },
+    {
+      "date": "2018-01-01",
+      "value": 1.15016,
+      "source": "World Bank"
+    },
+    {
+      "date": "2019-01-01",
+      "value": 1.15115,
+      "source": "World Bank"
+    },
+    {
+      "date": "2020-01-01",
+      "value": 1.21907,
+      "source": "World Bank"
+    },
+    {
+      "date": "2021-01-01",
+      "value": 1.13371,
+      "source": "World Bank"
+    },
+    {
+      "date": "2022-01-01",
+      "value": 1.18873,
+      "source": "World Bank"
+    },
+    {
+      "date": "2023-01-01",
+      "value": 1.1938,
+      "source": "World Bank"
+    }
+  ]
+}

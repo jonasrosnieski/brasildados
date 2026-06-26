@@ -1,0 +1,55 @@
+{
+  "fetched_at": "2026-06-26T02:19:24.101Z",
+  "source": "IPEADATA",
+  "source_url": "http://www.ipeadata.gov.br",
+  "series": [
+    {
+      "name": "salario_minimo_nominal",
+      "file": "salario_minimo_nominal.json",
+      "count": 1038,
+      "range": "1940-07-01 → 2026-12-01"
+    },
+    {
+      "name": "salario_minimo_real",
+      "file": "salario_minimo_real.json",
+      "count": 1031,
+      "range": "1940-07-01 → 2026-05-01"
+    },
+    {
+      "name": "gini",
+      "file": "gini.json",
+      "count": 0,
+      "range": "vazio"
+    },
+    {
+      "name": "populacao_total",
+      "file": "populacao_total.json",
+      "count": 0,
+      "range": "vazio"
+    },
+    {
+      "name": "analfabetismo",
+      "file": "analfabetismo.json",
+      "count": 0,
+      "range": "vazio"
+    },
+    {
+      "name": "mortalidade_infantil",
+      "file": "mortalidade_infantil.json",
+      "count": 0,
+      "range": "vazio"
+    },
+    {
+      "name": "pib_nominal_ipea",
+      "file": "pib_nominal_ipea.json",
+      "count": 437,
+      "range": "1990-01-01 → 2026-05-01"
+    },
+    {
+      "name": "pobreza",
+      "file": "pobreza.json",
+      "count": 0,
+      "range": "vazio"
+    }
+  ]
+}

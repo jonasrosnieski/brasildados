@@ -1,0 +1,33 @@
+{
+  "name": "populacao_censo",
+  "description": "População residente total — Censo Demográfico",
+  "unit": "pessoas",
+  "category": "social",
+  "subcategory": "populacao",
+  "source": "IBGE/SIDRA",
+  "source_url": "https://apisidra.ibge.gov.br/values/t/202/n1/all/v/93/p/all/d/v93%200",
+  "fetched_at": "2026-06-26T02:23:37.635Z",
+  "count": 5,
+  "data": [
+    {
+      "date": "1970-01-01",
+      "value": 93134846
+    },
+    {
+      "date": "1980-01-01",
+      "value": 119011052
+    },
+    {
+      "date": "1991-01-01",
+      "value": 146825475
+    },
+    {
+      "date": "2000-01-01",
+      "value": 169799170
+    },
+    {
+      "date": "2010-01-01",
+      "value": 190755799
+    }
+  ]
+}

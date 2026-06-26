@@ -1,0 +1,112 @@
+{
+  "name": "gini",
+  "category": "social",
+  "subcategory": "desigualdade",
+  "unit": "índice",
+  "description": "Coeficiente de Gini — renda domiciliar per capita",
+  "source": "IBGE/PNAD/DATASUS (curado)",
+  "fetched_at": "2026-06-26T02:23:39.309Z",
+  "count": 20,
+  "data": [
+    {
+      "date": "1976-01-01",
+      "value": 0.623,
+      "source": "PNAD 1976"
+    },
+    {
+      "date": "1981-01-01",
+      "value": 0.584,
+      "source": "PNAD 1981"
+    },
+    {
+      "date": "1985-01-01",
+      "value": 0.598,
+      "source": "PNAD 1985"
+    },
+    {
+      "date": "1990-01-01",
+      "value": 0.614,
+      "source": "PNAD 1990"
+    },
+    {
+      "date": "1993-01-01",
+      "value": 0.604,
+      "source": "PNAD 1993"
+    },
+    {
+      "date": "1995-01-01",
+      "value": 0.601,
+      "source": "PNAD 1995"
+    },
+    {
+      "date": "1998-01-01",
+      "value": 0.6,
+      "source": "PNAD 1998"
+    },
+    {
+      "date": "2001-01-01",
+      "value": 0.596,
+      "source": "PNAD 2001"
+    },
+    {
+      "date": "2003-01-01",
+      "value": 0.583,
+      "source": "PNAD 2003"
+    },
+    {
+      "date": "2005-01-01",
+      "value": 0.569,
+      "source": "PNAD 2005"
+    },
+    {
+      "date": "2007-01-01",
+      "value": 0.556,
+      "source": "PNAD 2007"
+    },
+    {
+      "date": "2009-01-01",
+      "value": 0.543,
+      "source": "PNAD 2009"
+    },
+    {
+      "date": "2011-01-01",
+      "value": 0.531,
+      "source": "PNAD 2011"
+    },
+    {
+      "date": "2013-01-01",
+      "value": 0.527,
+      "source": "PNAD 2013"
+    },
+    {
+      "date": "2015-01-01",
+      "value": 0.524,
+      "source": "PNAD-C 2015"
+    },
+    {
+      "date": "2017-01-01",
+      "value": 0.539,
+      "source": "PNAD-C 2017"
+    },
+    {
+      "date": "2019-01-01",
+      "value": 0.543,
+      "source": "PNAD-C 2019"
+    },
+    {
+      "date": "2021-01-01",
+      "value": 0.544,
+      "source": "PNAD-C 2021"
+    },
+    {
+      "date": "2022-01-01",
+      "value": 0.518,
+      "source": "PNAD-C 2022"
+    },
+    {
+      "date": "2023-01-01",
+      "value": 0.508,
+      "source": "PNAD-C 2023"
+    }
+  ]
+}
