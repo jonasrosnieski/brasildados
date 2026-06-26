@@ -11,3 +11,6 @@ downloads/
 
 # Dados brutos grandes — JSON curados em data/ vão para o repo
 data/tse/*.zip
+
+# Gerado em CI/local antes do deploy do Worker
+worker/data-bundle.json
