@@ -1,0 +1,6 @@
+/presidentes/*  https://aether.jonasponcianor.workers.dev/apps/brasildados/presidentes/:splat  302
+/rankings/*     https://aether.jonasponcianor.workers.dev/apps/brasildados/rankings/:splat     302
+/series/*       https://aether.jonasponcianor.workers.dev/apps/brasildados/series/:splat       302
+/social         https://aether.jonasponcianor.workers.dev/apps/brasildados/social             302
+/comparar       https://aether.jonasponcianor.workers.dev/apps/brasildados/comparar             302
+/*              https://aether.jonasponcianor.workers.dev/apps/brasildados                      302

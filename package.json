@@ -15,6 +15,9 @@
     "presidents": "node ingest/presidents.mjs",
     "presidents:legacy": "node ingest/presidents-legacy.mjs",
     "api": "node api/server.mjs",
+    "bundle": "node scripts/bundle-data.mjs",
+    "deploy:api": "npm run bundle && npx wrangler deploy",
+    "deploy:site": "npx wrangler pages deploy site --project-name brasildados --branch main",
     "download:all": "node ingest/download-all.mjs",
     "download:retry": "node ingest/download-retry.mjs",
     "download:tse": "node ingest/download-all.mjs --only=tse",
@@ -25,5 +28,8 @@
   "dependencies": {
     "adm-zip": "^0.5.17",
     "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "wrangler": "^4.14.0"
   }
 }

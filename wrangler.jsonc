@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "brasildados-api",
+  "main": "worker/worker.mjs",
+  "compatibility_date": "2025-03-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "BRASILDADOS_UI_URL": "https://brasildados-8o0.pages.dev"
+  }
+}

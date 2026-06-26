@@ -1,0 +1,67 @@
+name: Deploy BrasilDados
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+env:
+  CF_ACCOUNT_ID: a15bc1a8e8c5d4adf5838c4057b96c4f
+  API_URL: https://brasildados-api.jonasponcianor.workers.dev
+  SITE_URL: https://brasildados-8o0.pages.dev
+
+jobs:
+  deploy-api:
+    runs-on: ubuntu-latest
+    name: Deploy API (Cloudflare Worker)
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - run: npm ci
+
+      - name: Bundle curated data
+        run: node scripts/bundle-data.mjs
+
+      - name: Deploy worker
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CF_ACCOUNT_ID }}
+          command: deploy
+
+  deploy-site:
+    runs-on: ubuntu-latest
+    name: Deploy site (Cloudflare Pages)
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Deploy static site
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          npx wrangler pages deploy site \
+            --project-name brasildados \
+            --branch main
+
+  sync-hub:
+    needs: [deploy-api, deploy-site]
+    runs-on: ubuntu-latest
+    name: Sync Aether hub URLs
+    steps:
+      - name: Notify Aether hub
+        uses: peter-evans/repository-dispatch@v3
+        continue-on-error: true
+        with:
+          token: ${{ secrets.AETHER_SYNC_TOKEN }}
+          repository: jonasrosnieski/aether
+          event-type: sync-brasildados-prod
+          client-payload: '{"api_url":"https://brasildados-api.jonasponcianor.workers.dev","site_url":"https://brasildados-8o0.pages.dev"}'
