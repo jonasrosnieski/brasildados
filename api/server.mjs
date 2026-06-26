@@ -21,6 +21,7 @@ import { annotate, aggregateByPresident, presidentAt } from './presidents.mjs'
 import { computeAllRankings, presidentCard, RANKING_DEFS } from './rankings.mjs'
 
 const PORT = process.env.PORT ?? 3737
+const DASHBOARD_URL = process.env.BRASILDADOS_UI_URL ?? 'http://localhost:3000/apps/brasildados'
 
 // ── Bootstrap ─────────────────────────────────────────────────────────────────
 
@@ -44,7 +45,11 @@ function route(req, res) {
   const [r0, r1, r2] = parts
 
   try {
-    if (!r0)              return send(res, rootInfo())
+    if (!r0) {
+      const accept = req.headers.accept ?? ''
+      if (accept.includes('text/html')) return sendHtml(res, dashboardHtml())
+      return send(res, rootInfo())
+    }
     if (r0 === 'health')  return send(res, health())
 
     if (r0 === 'presidents' && !r1) return send(res, listPresidents())
@@ -79,6 +84,8 @@ function rootInfo() {
     name: 'BrasilDados API',
     version: '1.0.0',
     description: 'Análise comparativa de governos brasileiros (1889–2026)',
+    dashboard_url: DASHBOARD_URL,
+    note: 'Esta é a API JSON. O dashboard visual fica no Aether (Next.js), não nesta porta.',
     endpoints: [
       { method: 'GET', path: '/',                          description: 'Esta página' },
       { method: 'GET', path: '/health',                    description: 'Status e dados carregados' },
@@ -382,6 +389,25 @@ function send(res, data, status = 200) {
     'Access-Control-Allow-Origin': '*',
   })
   res.end(body)
+}
+
+function sendHtml(res, html, status = 200) {
+  res.writeHead(status, {
+    'Content-Type': 'text/html; charset=utf-8',
+    'Access-Control-Allow-Origin': '*',
+  })
+  res.end(html)
+}
+
+function dashboardHtml() {
+  const social = `${DASHBOARD_URL}/social`
+  return `<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><title>BrasilDados API</title>
+<meta http-equiv="refresh" content="0;url=${social}">
+<style>body{font-family:system-ui;background:#0f172a;color:#e2e8f0;display:flex;min-height:100vh;align-items:center;justify-content:center;margin:0;padding:2rem}
+.box{max-width:32rem;text-align:center} a{color:#60a5fa}</style></head><body><div class="box">
+<h1>BrasilDados API</h1><p>Porta <strong>${PORT}</strong> = backend JSON apenas.</p>
+<p>Dashboard visual: <a href="${social}">${social}</a></p>
+<p><small>Redirecionando…</small></p></div></body></html>`
 }
 
 // ── Inicialização ─────────────────────────────────────────────────────────────
