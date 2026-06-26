@@ -59,7 +59,8 @@ async function fetchThumb(title) {
   if (!res.ok) throw new Error(`HTTP ${res.status}`)
   const json = await res.json()
   if (!json.thumbnail?.source) throw new Error('sem thumbnail')
-  return json.thumbnail.source.replace(/\/\d+px-/, '/200px-')
+  // Usar URL exata da API — thumbs manuais com /200px- retornam 400 no Wikimedia
+  return json.thumbnail.source
 }
 
 async function main() {
@@ -74,7 +75,7 @@ async function main() {
       errors.push({ slug, title, error: err.message })
       console.error(`✗ ${slug}: ${err.message}`)
     }
-    await new Promise(r => setTimeout(r, 400))
+    await new Promise(r => setTimeout(r, 1200))
   }
 
   const lines = [
