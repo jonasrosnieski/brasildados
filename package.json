@@ -12,6 +12,7 @@
     "ingest:all": "node ingest/presidents.mjs && node ingest/bcb.mjs && node ingest/ipea.mjs && node ingest/ibge.mjs && node ingest/cti.mjs && node ingest/tse.mjs",
     "photos": "node tools/fetch-president-photos.mjs",
     "presidents": "node ingest/presidents.mjs",
+    "presidents:legacy": "node ingest/presidents-legacy.mjs",
     "api": "node api/server.mjs",
     "download:all": "node ingest/download-all.mjs",
     "download:retry": "node ingest/download-retry.mjs",

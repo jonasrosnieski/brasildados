@@ -330,6 +330,10 @@ export function presidentCard(slug, allRankings, presidentsList) {
       regime:         pres.regime,
       highlights:     pres.highlights ?? [],
       economic_context: pres.economic_context,
+      conquistas:     pres.conquistas ?? [],
+      polemicas:      pres.polemicas ?? [],
+      escandalos:     pres.escandalos ?? [],
+      criticas:       pres.criticas ?? [],
     },
     scorecard,
   }

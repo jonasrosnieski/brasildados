@@ -32,11 +32,26 @@ export function invalidateCache() { _cache = null }
 async function loadPresidents() {
   const file = path.join(ROOT, 'presidents.json')
   const raw  = JSON.parse(await fs.readFile(file, 'utf8'))
-  return raw.presidents.map(p => ({
-    ...p,
-    term_start: new Date(p.term_start),
-    term_end:   p.term_end ? new Date(p.term_end) : null,
-  }))
+
+  const emptyLegacy = { conquistas: [], polemicas: [], escandalos: [], criticas: [] }
+  let bySlug = {}
+  try {
+    const leg = JSON.parse(await fs.readFile(path.join(ROOT, 'presidents-legacy.json'), 'utf8'))
+    bySlug = leg.by_slug ?? {}
+  } catch { /* opcional */ }
+
+  return raw.presidents.map(p => {
+    const legacy = bySlug[p.slug] ?? emptyLegacy
+    return {
+      ...p,
+      conquistas: legacy.conquistas ?? [],
+      polemicas:  legacy.polemicas ?? [],
+      escandalos: legacy.escandalos ?? [],
+      criticas:   legacy.criticas ?? [],
+      term_start: new Date(p.term_start),
+      term_end:   p.term_end ? new Date(p.term_end) : null,
+    }
+  })
 }
 
 // ── Séries temporais ──────────────────────────────────────────────────────────

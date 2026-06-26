@@ -1,0 +1,841 @@
+{
+  "generated_at": "2026-06-26T03:59:39.948Z",
+  "source": "Curadoria histórica — CPDOC/FGV, Biblioteca da Presidência, imprensa e tribunais",
+  "disclaimer": "Registro editorial baseado em consenso historiográfico. Não substitui fontes primárias nem julgamentos judiciais.",
+  "total": 39,
+  "by_slug": {
+    "deodoro": {
+      "conquistas": [
+        "Proclamação da República e fim do Império sem guerra civil prolongada",
+        "Decreto de separação Igreja-Estado (1890)",
+        "Primeira Constituição republicana promulgada (1891)"
+      ],
+      "polemicas": [
+        "Golpe militar contra o Império e prisão da família imperial",
+        "Dissolução do Congresso e governança autoritária em 1891",
+        "Encilhamento: emissão descontrolada de papel-moeda"
+      ],
+      "escandalos": [
+        "Crise do Encilhamento e especulação financeira generalizada",
+        "Conflito com o Congresso levando à renúncia forçada"
+      ],
+      "criticas": [
+        "Governo instável e incapaz de consolidar instituições republicanas",
+        "Alcoolismo e saúde debilitada afetaram decisões de Estado",
+        "Legado de autoritarismo militar na política brasileira"
+      ]
+    },
+    "floriano": {
+      "conquistas": [
+        "Consolidação da República frente a restauracionistas",
+        "Repressão da Revolta da Armada e da Revolução Federalista",
+        "Estabelecimento de precedente de sucessão vice-presidencial"
+      ],
+      "polemicas": [
+        "Repressão violenta da Revolta da Armada (1893–1894)",
+        "Execução de pracinhas na Guanabara (1894)",
+        "Governança autoritária como \"Marechal de Ferro\""
+      ],
+      "escandalos": [
+        "Massacre de rebeldes e civis em combates navais e terrestres",
+        "Intervenções militares em estados dissidentes"
+      ],
+      "criticas": [
+        "Cultivo do personalismo militar na presidência",
+        "Uso excessivo da força em detrimento do debate político",
+        "Legado de violência como método de governança"
+      ]
+    },
+    "prudente": {
+      "conquistas": [
+        "Primeiro presidente civil eleito diretamente",
+        "Acordo de Petrópolis e pacificação com a Argentina (1895)",
+        "Renegociação da dívida externa (funding loan Rothschild)"
+      ],
+      "polemicas": [
+        "Guerra de Canudos e destruição de Antônio Conselheiro (1896–1897)",
+        "Atentado contra sua vida em 1897",
+        "Política oligárquica do café-com-leite mantida"
+      ],
+      "escandalos": [
+        "Massacre de Canudos com milhares de mortos",
+        "Corrupção e favoritismo na distribuição de cargos"
+      ],
+      "criticas": [
+        "Falha em conter violência rural no sertão",
+        "Subordinação às oligarquias regionais",
+        "Austeridade fiscal com alto custo social"
+      ]
+    },
+    "campos-sales": {
+      "conquistas": [
+        "Saneamento financeiro e superávit fiscal",
+        "Valorização do mil-réis e estabilização monetária relativa",
+        "Institucionalização da Política dos Governadores"
+      ],
+      "polemicas": [
+        "Política dos Governadores: coronelismo e fraudes eleitorais",
+        "Austeridade severa com cortes em saúde e educação",
+        "Centralização do poder nas oligarquias de SP e MG"
+      ],
+      "escandalos": [
+        "Fraude eleitoral sistemática nas eleições de 1898",
+        "Negociações opacas com credores estrangeiros"
+      ],
+      "criticas": [
+        "República formal sem democracia de fato",
+        "Exclusão de classes populares da representação",
+        "Modelo que perpetuou desigualdades regionais"
+      ]
+    },
+    "rodrigues-alves": {
+      "conquistas": [
+        "Reforma urbana do Rio (Pereira Passos) e modernização da capital",
+        "Campanha de Oswaldo Cruz contra febre amarela e peste bubônica",
+        "Modernização do porto de Santos e infraestrutura de exportação"
+      ],
+      "polemicas": [
+        "Revolta da Vacina (1904) por imposição sanitária",
+        "Demolições no Rio e expulsão de moradores pobres",
+        "Boom do café mascarando dependência de commodity"
+      ],
+      "escandalos": [
+        "Violência policial na Revolta da Vacina",
+        "Despejos em massa para obras de embelezamento urbano"
+      ],
+      "criticas": [
+        "Modernização elitista que excluiu periferias",
+        "Saúde pública imposta sem diálogo social",
+        "Política econômica dependente do ciclo cafeeiro"
+      ]
+    },
+    "afonso-pena": {
+      "conquistas": [
+        "Convênio de Taubaté para valorização do café",
+        "Fundação da Escola de Aviação Militar",
+        "Expansão de ferrovias e infraestrutura"
+      ],
+      "polemicas": [
+        "Valorização artificial do café à custa do erário",
+        "Endividamento público para sustentar preços do café",
+        "Morte no cargo gerando crise sucessória"
+      ],
+      "escandalos": [
+        "Contratos ferroviários e empréstimos contestados",
+        "Intervenções estaduais controversas"
+      ],
+      "criticas": [
+        "Política cafeeira como prioridade sobre diversificação",
+        "Governo curto demais para reformas estruturais",
+        "Continuidade do coronelismo republicano"
+      ]
+    },
+    "nilo-pecanha": {
+      "conquistas": [
+        "Criação do Serviço de Proteção ao Índio (SPI, 1910)",
+        "Primeiro presidente afrodescendente reconhecido pela historiografia",
+        "Transição pacífica após morte de Afonso Pena"
+      ],
+      "polemicas": [
+        "Mandato breve com pouca margem de ação",
+        "SPI posteriormente associado a políticas assimilacionistas",
+        "Debates sobre racialização e apagamento na memória política"
+      ],
+      "escandalos": [],
+      "criticas": [
+        "Governo interino sem agenda própria robusta",
+        "Legado do SPI criticado por atitudes paternalistas",
+        "Pouca inovação além de medidas simbólicas"
+      ]
+    },
+    "hermes": {
+      "conquistas": [
+        "Política das Salvações para conter rebeliões regionais",
+        "Resposta à Revolta da Chibata (1910) com anistia aos marinheiros",
+        "Início da industrialização acelerada no contexto da 1ª Guerra"
+      ],
+      "polemicas": [
+        "Revolta da Chibata e repressão inicial antes das concessões",
+        "Intervenções federais nos estados (\"salvações\")",
+        "Guerra do Contestado (1912–1916) com milhares de mortos"
+      ],
+      "escandalos": [
+        "Violência extrema no Contestado entre exército e camponeses",
+        "Corrupção em contratos de armamento"
+      ],
+      "criticas": [
+        "Autoritarismo militar nas intervenções estaduais",
+        "Falha em resolver conflitos agrários de forma negociada",
+        "Instabilidade econômica com queda do café"
+      ]
+    },
+    "venceslau": {
+      "conquistas": [
+        "Entrada do Brasil na 1ª Guerra Mundial (1917) com alinhamento ocidental",
+        "Código Civil de 1917 — marco jurídico duradouro",
+        "Apoio à industrialização durante a guerra"
+      ],
+      "polemicas": [
+        "Greve geral de 1917 reprimida em São Paulo",
+        "Rompimento com o Império Alemão e custos da guerra",
+        "Censura e perseguição a opositores germanófilos"
+      ],
+      "escandalos": [
+        "Repressão violenta a operários na greve de 1917",
+        "Prisões de jornalistas e ativistas"
+      ],
+      "criticas": [
+        "Participação na guerra sem consenso nacional amplo",
+        "Benefícios concentrados na industrialização paulista",
+        "Inflação e custo de vida elevado no pós-guerra"
+      ]
+    },
+    "delfim": {
+      "conquistas": [
+        "Condução do país durante a pandemia de gripe espanhola (1918–1919)",
+        "Transição até posse de Epitácio Pessoa"
+      ],
+      "polemicas": [
+        "Governo com saúde debilitada e mandato efetivo reduzido",
+        "Resposta limitada à gripe espanhola",
+        "Morte de Rodrigues Alves impediu posse do eleito"
+      ],
+      "escandalos": [],
+      "criticas": [
+        "Mandato interino sem capacidade plena de governar",
+        "Ausência de políticas estruturantes de saúde pública",
+        "Período de vácuo institucional"
+      ]
+    },
+    "epitacio": {
+      "conquistas": [
+        "Representação do Brasil em Versalhes (1919)",
+        "Criação de obras contra a seca no Nordeste",
+        "Fortalecimento diplomático pós-guerra"
+      ],
+      "polemicas": [
+        "Revolta do Forte de Copacabana (1922) e nascimento do tenentismo",
+        "Seca devastadora no Nordeste com resposta insuficiente",
+        "Eleições de 1922 contestadas"
+      ],
+      "escandalos": [
+        "Fraude e violência eleitoral nas disputas de 1922",
+        "Corrupção em obras de combate à seca"
+      ],
+      "criticas": [
+        "Incapacidade de reformar o sistema oligárquico",
+        "Legado de instabilidade que levou ao tenentismo",
+        "Política nordestina assistencialista sem desenvolvimento"
+      ]
+    },
+    "artur-bernardes": {
+      "conquistas": [
+        "Criação da Estrada de Ferro Rede Mineira e obras de infraestrutura",
+        "Resistência a movimentos revolucionários por quase quatro anos",
+        "Fortalecimento do Exército como árbitro político"
+      ],
+      "polemicas": [
+        "Estado de sítio durante praticamente todo o mandato",
+        "Revolução Paulista de 1924",
+        "Coluna Prestes: revolta de dois anos pelo interior"
+      ],
+      "escandalos": [
+        "Tortura e prisões de tenentistas e civis",
+        "Bombardeio de São Paulo na revolta de 1924"
+      ],
+      "criticas": [
+        "Governo mais autoritário da Primeira República",
+        "Falha total em negociar reformas políticas",
+        "Crise do café e instabilidade econômica prolongada"
+      ]
+    },
+    "washington-luis": {
+      "conquistas": [
+        "Expansão massiva da malha ferroviária e rodoviária",
+        "Modernização portuária e investimento em viação",
+        "Crescimento industrial inicial em São Paulo"
+      ],
+      "polemicas": [
+        "Rompeu o acordo café-com-leite ao apoiar Júlio Prestes (SP)",
+        "Crash de 1929 e colapso do preço do café",
+        "Revolução de 1930 e deposição por golpe"
+      ],
+      "escandalos": [
+        "Fraude eleitoral na eleição de 1930",
+        "Violência política no pleito que desencadeou a revolução"
+      ],
+      "criticas": [
+        "Cegueira diante da crise econômica mundial",
+        "Centralização paulista que alienou outras oligarquias",
+        "Fim violento da República Velha"
+      ]
+    },
+    "vargas-1": {
+      "conquistas": [
+        "Consolidação industrial (ISI) e criação de empresas estatais estratégicas",
+        "CLT (1943) e direitos trabalhistas amplos",
+        "Criação do IBGE, Petrobras (planejada) e Banco do Brasil fortalecido",
+        "Participação na 2ª Guerra ao lado dos Aliados (1942)"
+      ],
+      "polemicas": [
+        "Golpe de 1930 e centralização do poder",
+        "Estado Novo (1937): ditadura, censura e AI-5 precursor (decreto 37)",
+        "Integralismo e repressão a comunistas e opositores",
+        "Suicídio de opositores e censura imprensa"
+      ],
+      "escandalos": [
+        "Prisão e tortura de opositores no Estado Novo",
+        "Aliança ambígua com integralistas antes da repressão",
+        "Confisco de bens de \"inimigos do regime\""
+      ],
+      "criticas": [
+        "Autoritarismo prolongado por 15 anos",
+        "Culto à personalidade e fechamento do Congresso",
+        "Industrialização concentrada no Sudeste"
+      ]
+    },
+    "dutra": {
+      "conquistas": [
+        "Promulgação da Constituição de 1946",
+        "Plano SALTE (saúde, alimentação, transporte, energia)",
+        "Transição democrática pós-Estado Novo"
+      ],
+      "polemicas": [
+        "Cassação do registro do PCB (1947)",
+        "Alinhamento total aos EUA na Guerra Fria",
+        "Golpe preventivo contra movimentos de esquerda"
+      ],
+      "escandalos": [
+        "Quebra de acordos com a esquerda após a Constituinte",
+        "Perseguição a militantes comunistas"
+      ],
+      "criticas": [
+        "Governo fiscalmente irresponsável — esgotou reservas cambiais",
+        "Inflação galopante ao final do mandato",
+        "Anticomunismo acima de reformas estruturais"
+      ]
+    },
+    "vargas-2": {
+      "conquistas": [
+        "Criação da Petrobras (1953) — símbolo do nacionalismo de recursos",
+        "Criação do BNDES (1952) para financiar desenvolvimento",
+        "Carta-testamento com legado trabalhista e nacionalista"
+      ],
+      "polemicas": [
+        "Criação da Petrobras contra forte oposição e lobby estrangeiro",
+        "Crise econômica e inflação descontrolada",
+        "Suicídio em 1954 após crise política"
+      ],
+      "escandalos": [
+        "Atentado de Rua Tonelero contra Carlos Lacerda (1954)",
+        "Escândalo que levou à crise final e suicídio",
+        "Acusações de uso da polícia política"
+      ],
+      "criticas": [
+        "Populismo fiscal insustentável",
+        "Confronto institucional com militares e Congresso",
+        "Trágico desfecho que polarizou o país"
+      ]
+    },
+    "cafe-filho": {
+      "conquistas": [
+        "Instrução 113 da SUMOC — liberalização cambial inicial",
+        "Transição após morte de Vargas sem ruptura institucional imediata",
+        "Estabilização monetária de curto prazo"
+      ],
+      "polemicas": [
+        "Tentativa de impedir a posse de Juscelino Kubitschek",
+        "Crise sucessória de 1955",
+        "Mandato curto marcado por incerteza"
+      ],
+      "escandalos": [
+        "Conspiração para barrar JK — crise da \"conspiración\""
+      ],
+      "criticas": [
+        "Visão econômica ortodoxa em conflito com desenvolvimentismo",
+        "Papel ambíguo na crise de 1955",
+        "Pouca legitimidade eleitoral própria"
+      ]
+    },
+    "carlos-luz": {
+      "conquistas": [
+        "Episódio que revelou fragilidade institucional da sucessão"
+      ],
+      "polemicas": [
+        "Presidência de apenas 3 dias (8–11/nov/1955)",
+        "Deposto por contragolpe de Henrique Lott para garantir posse de JK"
+      ],
+      "escandalos": [
+        "Tentativa de golpe contra a posse do eleito JK"
+      ],
+      "criticas": [
+        "Mandato simbólico sem governança efetiva",
+        "Participação em manobra golpista fracassada"
+      ]
+    },
+    "nereu-ramos": {
+      "conquistas": [
+        "Garantiu a posse de JK após crise de novembro de 1955",
+        "Transição institucional relativamente pacífica"
+      ],
+      "polemicas": [
+        "Governo interino de ~2 meses em contexto de crise",
+        "Solução militar-política fora da normalidade democrática"
+      ],
+      "escandalos": [],
+      "criticas": [
+        "Mandato técnico sem agenda própria",
+        "Dependência de acordos de bastidores"
+      ]
+    },
+    "jk": {
+      "conquistas": [
+        "Construção de Brasília (1960) — nova capital no interior",
+        "Plano de Metas e industrialização acelerada",
+        "Atração de montadoras (VW, GM, Ford) — motorização do país",
+        "Crescimento médio do PIB ~8% ao ano"
+      ],
+      "polemicas": [
+        "\"50 anos em 5\" — endividamento externo dobrado",
+        "Rompimento com o FMI e política de importações",
+        "Construção de Brasília com custo e deslocamento populacional",
+        "Anistia a Jânio Quadros e retorno político controverso"
+      ],
+      "escandalos": [
+        "Corrupção em obras públicas e licitações do Plano de Metas",
+        "Denúncias de tráfico de influência na construção de Brasília"
+      ],
+      "criticas": [
+        "Inflação e desequilíbrio externo herdados por sucessores",
+        "Desenvolvimentismo a qualquer custo fiscal",
+        "Urbanização sem infraestrutura nas periferias"
+      ]
+    },
+    "janio": {
+      "conquistas": [
+        "Maior votação proporcional até então (1960)",
+        "Campanha moralista contra corrupção",
+        "Medidas de austeridade fiscal inicial"
+      ],
+      "polemicas": [
+        "Renúncia após apenas 7 meses — crise institucional",
+        "Condecoração de Che Guevara em visita ao Brasil",
+        "Balanço de pagamentos crítico"
+      ],
+      "escandalos": [
+        "Renúncia sem explicação clara — mistério político duradouro"
+      ],
+      "criticas": [
+        "Irresponsabilidade ao abandonar o cargo",
+        "Moralismo sem base parlamentar",
+        "Contribuiu para instabilidade que levou a 1964"
+      ]
+    },
+    "jango": {
+      "conquistas": [
+        "Reformas de Base (agrária, urbana, tributária) propostas",
+        "Plebiscito de 1963 restaurou presidencialismo",
+        "Comício da Central (13/03/1964) — mobilização popular histórica",
+        "Política externa independente (relação com EUA tensa)"
+      ],
+      "polemicas": [
+        "Golpe militar de 31 de março de 1964",
+        "Reforma agrária e nacionalizações ameaçando elites",
+        "Inflação de ~80% em 1963 e desordem econômica"
+      ],
+      "escandalos": [
+        "Acusações de comunismo e infiltração soviética (contexto da Guerra Fria)",
+        "Ligações militares com movimentos de esquerda"
+      ],
+      "criticas": [
+        "Incapacidade de negociar com Congresso e militares",
+        "Política econômica errática",
+        "Legado polarizado — herói popular vs. causador do golpe"
+      ]
+    },
+    "castelo-branco": {
+      "conquistas": [
+        "Criação do Banco Central (1964) e modernização institucional",
+        "PAEG — plano de estabilização econômica inicial",
+        "Criação do BNH, FGTS e expansão do crédito habitacional",
+        "Crescimento econômico retomado após o golpe"
+      ],
+      "polemicas": [
+        "AI-1 e AI-2 — início da ditadura institucionalizada",
+        "Bipartidarismo forçado (ARENA x MDB)",
+        "Censura, prisões e cassação de mandatos"
+      ],
+      "escandalos": [
+        "Tortura sistemática de presos políticos",
+        "Institucionalização dos Atos Institucionais"
+      ],
+      "criticas": [
+        "Golpe contra constituição democrática",
+        "Repressão a sindicatos e estudantes",
+        "Benefícios econômicos com custo democrático altíssimo"
+      ]
+    },
+    "costa-e-silva": {
+      "conquistas": [
+        "Início do \"Milagre Econômico\" — alto crescimento do PIB",
+        "Consolidação da indústria de bens de capital",
+        "Investimento em infraestrutura e rodovias"
+      ],
+      "polemicas": [
+        "AI-5 (13/12/1968) — endurecimento máximo da ditadura",
+        "Passeata dos Cem Mil (1968) e repressão",
+        "Guerrilha urbana e resposta militar violenta"
+      ],
+      "escandalos": [
+        "Fechamento do Congresso após AI-5",
+        "Tortura e mortes de presos políticos (incl. Herzog em 1975, contexto posterior)",
+        "Operações de censura e exílio de intelectuais"
+      ],
+      "criticas": [
+        "Escalada autoritária irreversível no período",
+        "Crescimento econômico excluía classes populares",
+        "Saúde mental deteriorada afetou governança final"
+      ]
+    },
+    "medici": {
+      "conquistas": [
+        "PIB cresceu até 14% (1973) — auge do Milagre Econômico",
+        "Copa do Mundo 1970 como projeção internacional",
+        "Transamazônica e projetos de integração nacional"
+      ],
+      "polemicas": [
+        "Anos de Chumbo — pico da repressão e tortura",
+        "Operação Condor e cooperação com ditaduras latino-americanas",
+        "Censura total da imprensa",
+        "\"Brasil: ame-o ou deixe-o\""
+      ],
+      "escandalos": [
+        "Mortes de Vladimir Herzog, Manoel Fiel Filho e centenas de desaparecidos",
+        "DOI-CODI e aparelhos de tortura institucionalizados",
+        "Assassinato de Carlos Marighella e líderes guerrilheiros"
+      ],
+      "criticas": [
+        "Período mais violento da ditadura",
+        "Crescimento baseado em dívida externa insustentável",
+        "Legado traumático na sociedade civil"
+      ]
+    },
+    "geisel": {
+      "conquistas": [
+        "II Plano Nacional de Desenvolvimento (II PND)",
+        "Revogação do AI-5 (1978) — início da abertura",
+        "Acordo nuclear com Alemanha Ocidental",
+        "Crescimento da indústria de armamentos (Embraer, etc.)"
+      ],
+      "polemicas": [
+        "\"Abertura lenta, gradual e segura\" — transição controlada",
+        "Lei Falcão e censura prévia mantida",
+        "Morte de jornalista Vladimir Herzog (1975)",
+        "Choque do petróleo (1973) e endividamento"
+      ],
+      "escandalos": [
+        "Caso Herzog — suicídio sob tortura oficialmente negada",
+        "Caso Fiel Filho — espancamento em delegacia",
+        "Operações de inteligência contra opositores"
+      ],
+      "criticas": [
+        "Abertura insuficiente e revertida em momentos",
+        "Endividamento externo explosivo",
+        "Repressão continuada apesar do discurso de distensão"
+      ]
+    },
+    "figueiredo": {
+      "conquistas": [
+        "Lei da Anistia (1979) para presos políticos",
+        "Processo de redemocratização iniciado",
+        "Renegociação da dívida externa com credores"
+      ],
+      "polemicas": [
+        "Movimento Diretas Já (1983–84) e resistência à eleição direta",
+        "Hiperinflação e moratória da dívida (1983)",
+        "2º choque do petróleo e crise econômica profunda"
+      ],
+      "escandalos": [
+        "Escândalo Proconsult — espionagem e corrupção",
+        "Crise da dívida e congelamento de pagamentos"
+      ],
+      "criticas": [
+        "Último presidente militar — transição tardia",
+        "Economia em colapso ao entregar o governo",
+        "Doença de Parkinson afetou capacidade de comando"
+      ]
+    },
+    "sarney": {
+      "conquistas": [
+        "Constituição Cidadã de 1988 — marco democrático",
+        "Redemocratização consolidada após ditadura",
+        "Plano Cruzado (1986) — redução temporária da inflação",
+        "Criação do SUS e direitos sociais na Constituição"
+      ],
+      "polemicas": [
+        "Sucessivos planos econômicos fracassados (Cruzado, Bresser, Verão)",
+        "Hiperinflação chegando a 1.800% ao ano (1989)",
+        "Origem no ARENA — legado da ditadura"
+      ],
+      "escandalos": [
+        "Escândalo do Banco Nacional (1987)",
+        "Corrupção em obras e contratos governamentais",
+        "PCC e denúncias de tráfico de influência"
+      ],
+      "criticas": [
+        "Incapacidade de estabilizar a economia por cinco anos",
+        "Mandato mais longo da Nova República até então (5 anos)",
+        "Coalizão fisiológica no Congresso"
+      ]
+    },
+    "collor": {
+      "conquistas": [
+        "Plano Collor — inflação caiu abruptamente (mar/1990)",
+        "Abertura comercial e início de privatizações",
+        "Primeiro presidente eleito direto pós-1964"
+      ],
+      "polemicas": [
+        "Confisco de poupança e ativos (mar/1990)",
+        "Impeachment por corrupção (1992) — primeiro do tipo",
+        "Escândalo PC Farias — sistema de propinas"
+      ],
+      "escandalos": [
+        "PC Farias — tesoureiro e esquema de corrupção",
+        "Laranjas, carros e apartamentos em propinas",
+        "Impeachment aprovado pelo Congresso"
+      ],
+      "criticas": [
+        "Recessão profunda após Plano Collor",
+        "Populismo e gestão improvisada",
+        "Abertura comercial sem compensações sociais"
+      ]
+    },
+    "itamar": {
+      "conquistas": [
+        "Plano Real (jul/1994) — fim da hiperinflação",
+        "Criação da moeda Real e estabilidade monetária",
+        "Rio+92 — maior conferência ambiental da história",
+        "Transição democrática após impeachment"
+      ],
+      "polemicas": [
+        "MST e ocupações de terra em escala crescente",
+        "Coalizão frágil no Congresso",
+        "Reforma agrária lenta"
+      ],
+      "escandalos": [
+        "Denúncias de corrupção em estados aliados",
+        "Escândalos menores envolvendo ministros"
+      ],
+      "criticas": [
+        "Governo de transição com pouca visibilidade própria",
+        "Crédito ao Real vai principalmente a FHC",
+        "Desigualdade persistente apesar da estabilidade"
+      ]
+    },
+    "fhc-1": {
+      "conquistas": [
+        "Consolidação do Plano Real e estabilidade inflacionária",
+        "Lei de Responsabilidade Fiscal (LRF)",
+        "Privatizações de Telebrás, Vale, CSN e setor elétrico",
+        "Reeleição aprovada — continuidade democrática"
+      ],
+      "polemicas": [
+        "Câmbio fixo e vulnerabilidade externa",
+        "Crise asiática (1997) e russa (1998) no Brasil",
+        "Privatizações controversas e concentração de mercado"
+      ],
+      "escandalos": [
+        "Escândalo do Proer — empréstimos a banqueiros",
+        "Mensalão não, mas denúncias de compra de votos para reeleição",
+        "CPI do Sistema Financeiro Nacional"
+      ],
+      "criticas": [
+        "Desemprego estrutural elevado",
+        "Dependência de fluxo de capitais externos",
+        "Reformas sociais insuficientes"
+      ]
+    },
+    "fhc-2": {
+      "conquistas": [
+        "Tripé macroeconômico (metas de inflação, câmbio flutuante, superávit primário)",
+        "Bolsa Escola e Bolsa Alimentação (precursoras do Bolsa Família)",
+        "Resposta à crise de 1999 sem colapso bancário"
+      ],
+      "polemicas": [
+        "Desvalorização do Real (jan/1999) após câmbio fixo",
+        "Apagão de 2001 e crise de energia",
+        "Crise argentina (2001) impactando o Brasil"
+      ],
+      "escandalos": [
+        "Escândalo do Banestado e corrupção em estados",
+        "Denúncias na compra da CPMF"
+      ],
+      "criticas": [
+        "Crescimento econômico medíocre (~2% ao ano)",
+        "Apagão expôs falta de investimento em energia",
+        "Aliança com centrão e fisiologismo"
+      ]
+    },
+    "lula-1": {
+      "conquistas": [
+        "Bolsa Família — maior programa de transferência de renda",
+        "Valorização real do salário mínimo acima da inflação",
+        "Redução da desigualdade (Gini) e ascensão de classe C",
+        "Lei Maria da Penha (2006)",
+        "Boom de commodities e crescimento ~4% ao ano"
+      ],
+      "polemicas": [
+        "Mensalão (2005) — compra de votos no Congresso",
+        "Aliança com partidos do centrão",
+        "Carta ao Povo Brasileiro — compromisso fiscal com mercado"
+      ],
+      "escandalos": [
+        "Mensalão — julgamento no STF com condenações",
+        "Escândalo do Sanguessugas (2006)",
+        "Denúncias de corrupção em estatais"
+      ],
+      "criticas": [
+        "Dependência do ciclo de commodities",
+        "Reformas estruturais (tributária, previdência) adiadas",
+        "Política externa pró-Venezuela/Cuba criticada"
+      ]
+    },
+    "lula-2": {
+      "conquistas": [
+        "PAC — investimento massivo em infraestrutura",
+        "Descoberta do pré-sal (2007) — nova fronteira petrolífera",
+        "Resposta anticíclica à crise de 2008 — Brasil saiu primeiro",
+        "ProUni e FIES — expansão do ensino superior",
+        "Crescimento de 7,5% em 2010"
+      ],
+      "polemicas": [
+        "Crise financeira global e estímulos fiscais controversos",
+        "Intervenções na Petrobras e política de preços de combustíveis",
+        "Aproximação com Ahmadinejad e ditaduras"
+      ],
+      "escandalos": [
+        "Escândalo do Mensalão (revelado em 2005, desdobramentos até 2012)",
+        "Denúncias de corrupção em obras do PAC"
+      ],
+      "criticas": [
+        "Desaceleração estrutural após 2010",
+        "Intervencionismo em estatais reduzindo eficiência",
+        "Preparação de sucessora sem base fiscal sólida"
+      ]
+    },
+    "dilma-1": {
+      "conquistas": [
+        "Primeira mulher presidente do Brasil",
+        "Mais de 20 milhões saíram da extrema pobreza (continuidade social)",
+        "Copa do Mundo 2014 realizada no Brasil",
+        "Lei de cotas raciais nas universidades federais (2012)"
+      ],
+      "polemicas": [
+        "Protestos de junho/2013 — maior onda desde a redemocratização",
+        "Nova Matriz Econômica — intervencionismo em setores estratégicos",
+        "Início da Operação Lava Jato na Petrobras"
+      ],
+      "escandalos": [
+        "Petrolão — esquema de corrupção na Petrobras revelado",
+        "Cartel de construtoras em licitações públicas"
+      ],
+      "criticas": [
+        "Desaceleração econômica e queda da produtividade",
+        "Desonerações fiscais insustentáveis",
+        "Comunicação governamental falha nos protestos"
+      ]
+    },
+    "dilma-2": {
+      "conquistas": [
+        "Programas sociais mantidos apesar da recessão",
+        "Política externa ativa em organismos multilaterais"
+      ],
+      "polemicas": [
+        "Impeachment de 2016 por pedaladas fiscais",
+        "Recessão de -3,5% (2015) e -3,3% (2016) — pior em décadas",
+        "Lava Jato no auge — prisões de empresários e políticos"
+      ],
+      "escandalos": [
+        "Lava Jato — maior investigação de corrupção da história",
+        "Pedaladas fiscais para mascarar déficit",
+        "Acusações de conluio com empreiteiras"
+      ],
+      "criticas": [
+        "Gestão econômica considerada desastrosa por analistas",
+        "Inflação acima de 10% e Selic a 14,25%",
+        "Polarização política extrema"
+      ]
+    },
+    "temer": {
+      "conquistas": [
+        "Reforma Trabalhista (2017)",
+        "Teto de Gastos (EC 95/2016)",
+        "Saída gradual da recessão — crescimento retomado em 2017",
+        "Inflação e juros em queda"
+      ],
+      "polemicas": [
+        "Impeachment de Dilma — legitimidade contestada",
+        "Joesley Day — gravação comprometedora (maio/2017)",
+        "Reforma trabalhista impopular"
+      ],
+      "escandalos": [
+        "JBS/Joesley Batista — delação e gravação contra Temer",
+        "Denúncias na PGR por corrupção (não aceitas pelo Congresso)",
+        "Caso dos portos e mala de propina"
+      ],
+      "criticas": [
+        "Governo com aprovação histórica baixíssima",
+        "Reformas sem popularidade — ajuste fiscal sobre trabalhadores",
+        "Aliança com Congresso fisiológico"
+      ]
+    },
+    "bolsonaro": {
+      "conquistas": [
+        "Reforma da Previdência (2019) aprovada no início do mandato",
+        "Auxílio Emergencial (2020) — proteção na pandemia",
+        "Marco legal do saneamento (2020)",
+        "Redução de homicídios até 2022 (debate metodológico)"
+      ],
+      "polemicas": [
+        "Gestão da pandemia COVID-19 — ~700 mil mortes",
+        "Conflito institucional com STF e Congresso",
+        "Retórica antidemocrática e ataques à imprensa",
+        "8 de janeiro de 2023 (atos antidemocráticos pós-eleição)"
+      ],
+      "escandalos": [
+        "Escândalo das vacinas (tratamento precoce, atraso de doses)",
+        "Rachadinha — investigações envolvendo família",
+        "Micheque e joias sauditas",
+        "Inelegibilidade declarada pelo TSE (2023)"
+      ],
+      "criticas": [
+        "Desmonte de políticas ambientais e aumento do desmatamento",
+        "Desindustrialização e estagnação econômica",
+        "Deterioração da imagem internacional do Brasil"
+      ]
+    },
+    "lula-3": {
+      "conquistas": [
+        "Novo arcabouço fiscal aprovado (2023)",
+        "Reforma tributária histórica (EC 132/2023)",
+        "Retomada de programas sociais (Bolsa Família, Minha Casa Minha Vida)",
+        "Reconstrução institucional pós-8 de janeiro"
+      ],
+      "polemicas": [
+        "8 de janeiro de 2023 — ataques à Praça dos Três Poderes",
+        "Déficit fiscal e meta zerada em debate",
+        "Conflito Israel-Hamas e posicionamento diplomático",
+        "Nomeações políticas em estatais"
+      ],
+      "escandalos": [
+        "Operação Lava Jato — condenações anuladas; debate sobre accountability",
+        "Denúncias de irregularidades em emendas parlamentares"
+      ],
+      "criticas": [
+        "Mandato em curso — avaliação prematura em economia",
+        "Coalizão ampla com centrão criticada por fisiologismo",
+        "Pressão inflacionária e juros elevados"
+      ]
+    }
+  }
+}
