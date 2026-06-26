@@ -61,7 +61,10 @@ function route(req, res) {
 
     if (r0 === 'social' && r1 === 'renda-classes') return send(res, socialRendaClasses())
     if (r0 === 'social' && r1 === 'renda-mandatos') return send(res, socialRendaMandatos())
+    if (r0 === 'social' && r1 === 'renda-distribuicao') return send(res, socialRendaDistribuicao())
     if (r0 === 'social' && r1 === 'profissoes')    return send(res, socialProfissoes())
+
+    if (r0 === 'empresas') return send(res, getEmpresas())
 
     return send(res, { error: 'Not found' }, 404)
   } catch (err) {
@@ -89,7 +92,9 @@ function rootInfo() {
       { method: 'GET', path: '/summary',                   description: 'Tabela resumo: todos presidentes × todos indicadores' },
       { method: 'GET', path: '/social/renda-classes',      description: 'Renda média por classe social (série anual)' },
       { method: 'GET', path: '/social/renda-mandatos',     description: 'Renda média por classe, agregada por mandato presidencial' },
+      { method: 'GET', path: '/social/renda-distribuicao', description: 'Distribuição da população por faixas de renda (alternativo)' },
       { method: 'GET', path: '/social/profissoes',         description: 'Profissões — mais populares e maiores salários' },
+      { method: 'GET', path: '/empresas',                  description: 'Companhias abertas — receita, lucro, impacto social, estatais' },
     ],
     examples: [
       '/presidents/lula-1',
@@ -112,6 +117,7 @@ function health() {
     rankings:   Object.keys(DB.rankings).length,
     series_list: Object.keys(DB.series),
     social:      DB.social?.renda_classes ? 'loaded' : 'missing',
+    empresas:    DB.empresas ? 'loaded' : 'missing',
   }
 }
 
@@ -125,6 +131,18 @@ function socialProfissoes() {
   const p = DB.social?.profissoes
   if (!p) return notFound('Dados de profissões não carregados. Execute: npm run ingest:social')
   return p
+}
+
+function socialRendaDistribuicao() {
+  const d = DB.social?.renda_distribuicao
+  if (!d) return notFound('Distribuição por faixas não carregada. Execute: npm run ingest:social')
+  return d
+}
+
+function getEmpresas() {
+  const e = DB.empresas
+  if (!e) return notFound('Dados de empresas não carregados. Execute: npm run ingest:empresas')
+  return e
 }
 
 function socialRendaMandatos() {

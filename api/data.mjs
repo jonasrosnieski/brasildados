@@ -15,13 +15,14 @@ let _cache = null
 export async function loadAll() {
   if (_cache) return _cache
 
-  const [presidents, series, social] = await Promise.all([
+  const [presidents, series, social, empresas] = await Promise.all([
     loadPresidents(),
     loadAllSeries(),
     loadSocial(),
+    loadEmpresas(),
   ])
 
-  _cache = { presidents, series, social }
+  _cache = { presidents, series, social, empresas }
   return _cache
 }
 
@@ -96,7 +97,7 @@ async function loadAllSeries() {
 
 async function loadSocial() {
   const dir = path.join(ROOT, 'social')
-  const result = { renda_classes: null, profissoes: null }
+  const result = { renda_classes: null, profissoes: null, renda_distribuicao: null }
 
   try {
     const renda = JSON.parse(await fs.readFile(path.join(dir, 'renda_media_por_classe.json'), 'utf8'))
@@ -108,5 +109,18 @@ async function loadSocial() {
     result.profissoes = prof
   } catch { /* opcional */ }
 
+  try {
+    const dist = JSON.parse(await fs.readFile(path.join(dir, 'renda_distribuicao_faixas.json'), 'utf8'))
+    result.renda_distribuicao = dist
+  } catch { /* opcional */ }
+
   return result
+}
+
+async function loadEmpresas() {
+  try {
+    return JSON.parse(await fs.readFile(path.join(ROOT, 'empresas', 'empresas.json'), 'utf8'))
+  } catch {
+    return null
+  }
 }

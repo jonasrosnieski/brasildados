@@ -67,6 +67,127 @@ function weightedAvg(segments, massByClass, popByClass) {
   return (totalMass * 1_000_000) / (totalPop * 1000)
 }
 
+async function buildIncomeDistribution() {
+  console.log('  Distribuição por faixa de renda (7533 + 7521)...')
+  const latestYear = '2023'
+  const [incomeBySeg, popBySeg] = await Promise.all([
+    fetchAgregadoSingle(7533, 10816, latestYear),
+    fetchAgregadoSingle(7521, 606, latestYear),
+  ])
+
+  const BRACKETS = [
+    { key: 'ate_2k',           label: 'Até R$ 2.000/mês',              max: 2000 },
+    { key: 'de_2k_5k',         label: 'R$ 2.001 – 5.000',              min: 2001, max: 5000 },
+    { key: 'de_5k_10k',        label: 'R$ 5.001 – 10.000',             min: 5001, max: 10000 },
+    { key: 'de_10k_30k',       label: 'R$ 10.001 – 30.000',            min: 10001, max: 30000 },
+    { key: 'de_30k_100k',      label: 'R$ 30.001 – 100.000',           min: 30001, max: 100000 },
+    { key: 'super_ricos',      label: 'Super-ricos (> R$ 100 mil)',    min: 100001, max: 999999 },
+    { key: 'milionarios_renda', label: 'Milionários de renda (> R$ 1 mi/mês)', min: 1000001 },
+  ]
+
+  const SEGMENTS = [
+    { ibge: 'Até o P5', share_pct: 5 },
+    { ibge: 'Maior que o P5 até o P10', share_pct: 5 },
+    { ibge: 'Maior que o P10 até o P20', share_pct: 10 },
+    { ibge: 'Maior que o P20 até o P30', share_pct: 10 },
+    { ibge: 'Maior que o P30 até o P40', share_pct: 10 },
+    { ibge: 'Maior que o P40 até o P50', share_pct: 10 },
+    { ibge: 'Maior que o P50 até o P60', share_pct: 10 },
+    { ibge: 'Maior que o P60 até o P70', share_pct: 10 },
+    { ibge: 'Maior que o P70 até o P80', share_pct: 10 },
+    { ibge: 'Maior que o P80 até o P90', share_pct: 10 },
+    { ibge: 'Maior que o P90 até o P95', share_pct: 5 },
+    { ibge: 'Maior que o P95 até o P99', share_pct: 4 },
+    { ibge: 'Maior que o P99', share_pct: 1 },
+  ]
+
+  function bracketForIncome(income) {
+    for (const b of BRACKETS) {
+      const aboveMin = b.min == null || income >= b.min
+      const belowMax = b.max == null || income <= b.max
+      if (aboveMin && belowMax) return b.key
+    }
+    return BRACKETS[BRACKETS.length - 1].key
+  }
+
+  const bracketPop = Object.fromEntries(BRACKETS.map(b => [b.key, 0]))
+  const bracketIncome = Object.fromEntries(BRACKETS.map(b => [b.key, 0]))
+  let totalPopThousands = 0
+
+  for (const seg of SEGMENTS) {
+    const popThousands = popBySeg[seg.ibge]
+    const income = incomeBySeg[seg.ibge]
+    if (popThousands == null || income == null) continue
+    totalPopThousands += popThousands
+    const key = bracketForIncome(income)
+    bracketPop[key] += popThousands
+    bracketIncome[key] += income * popThousands
+  }
+
+  // Bilionários (patrimônio) — referência pública Forbes/Valor, não capturada na PNAD
+  const BILLIONAIRES_ESTIMATE = {
+    count: 265,
+    population_share_pct: 0.0012,
+    source: 'Forbes Brasil / ranking público bilionários (estimativa 2024, patrimônio — não renda mensal)',
+  }
+
+  const brackets = BRACKETS.map(b => {
+    const popThousands = bracketPop[b.key] ?? 0
+    const popPct = totalPopThousands > 0 ? (popThousands / totalPopThousands) * 100 : 0
+    const avgIncome = popThousands > 0 ? Math.round(bracketIncome[b.key] / popThousands) : null
+    return {
+      key: b.key,
+      label: b.label,
+      population_millions: Math.round((popThousands / 1000) * 100) / 100,
+      population_pct: Math.round(popPct * 100) / 100,
+      avg_income_brl: avgIncome,
+    }
+  })
+
+  const ate5k = brackets
+    .filter(b => ['ate_2k', 'de_2k_5k'].includes(b.key))
+    .reduce((s, b) => s + b.population_pct, 0)
+
+  const topElite = brackets
+    .filter(b => ['super_ricos', 'milionarios_renda'].includes(b.key))
+    .reduce((s, b) => s + b.population_pct, 0)
+
+  return {
+    name: 'renda_distribuicao_faixas',
+    description: 'Distribuição da população brasileira por faixas de renda domiciliar per capita mensal real',
+    unit: 'R$/mês',
+    category: 'social',
+    subcategory: 'desigualdade',
+    source: 'IBGE/PNAD Contínua',
+    source_url: 'https://sidra.ibge.gov.br/tabela/7533',
+    reference_year: latestYear,
+    note: 'Faixas alternativas (não oficiais): cada segmento percentual PNAD é alocado à faixa onde cai sua renda média. Renda domiciliar per capita — proxy de renda por pessoa no domicílio. Bilionários = patrimônio (Forbes), não renda.',
+    bracket_labels: Object.fromEntries(BRACKETS.map(b => [b.key, b.label])),
+    highlights: {
+      majority_under_5k_pct: Math.round(ate5k * 10) / 10,
+      elite_over_100k_pct: Math.round(topElite * 1000) / 1000,
+      billionaires: BILLIONAIRES_ESTIMATE,
+    },
+    fetched_at: new Date().toISOString(),
+    data: [{ date: `${latestYear}-01-01`, brackets }],
+  }
+}
+
+async function fetchAgregadoSingle(agregado, variavel, year) {
+  const url = `${BASE}/${agregado}/periodos/${year}/variaveis/${variavel}?classificacao=1019[all]&localidades=N1[all]`
+  const res = await fetch(url, { signal: AbortSignal.timeout(120_000) })
+  if (!res.ok) throw new Error(`HTTP ${res.status} agregado ${agregado}`)
+  const json = await res.json()
+  const byClass = {}
+  for (const block of json[0]?.resultados ?? []) {
+    const catName = Object.values(block.classificacoes[0].categoria)[0]
+    if (!catName || catName === 'Total' || catName.startsWith('Até o P10')) continue
+    const val = parseFloat(String(block.series[0]?.serie?.[year]).replace(',', '.'))
+    if (!isNaN(val)) byClass[catName] = val
+  }
+  return byClass
+}
+
 async function buildIncomeClasses() {
   console.log('  Massa de renda (7428) + população por classe (7521)...')
   const [mass, pop] = await Promise.all([
@@ -169,6 +290,16 @@ async function fetchProfessions() {
 async function run() {
   await fs.mkdir(DATA_DIR, { recursive: true })
   const manifest = { fetched_at: new Date().toISOString(), source: 'IBGE PNAD Contínua', series: [] }
+
+  try {
+    const dist = await buildIncomeDistribution()
+    await fs.writeFile(path.join(DATA_DIR, 'renda_distribuicao_faixas.json'), JSON.stringify(dist, null, 2))
+    manifest.series.push({ name: dist.name, count: 1, file: 'renda_distribuicao_faixas.json' })
+    console.log(`  ✓ renda_distribuicao_faixas: ${dist.reference_year} (maioria <5k: ${dist.highlights.majority_under_5k_pct}%)`)
+  } catch (err) {
+    console.error(`  ✗ distribuição: ${err.message}`)
+    manifest.series.push({ name: 'renda_distribuicao_faixas', error: err.message })
+  }
 
   try {
     const income = await buildIncomeClasses()
