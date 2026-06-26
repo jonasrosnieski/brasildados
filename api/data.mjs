@@ -15,12 +15,13 @@ let _cache = null
 export async function loadAll() {
   if (_cache) return _cache
 
-  const [presidents, series] = await Promise.all([
+  const [presidents, series, social] = await Promise.all([
     loadPresidents(),
     loadAllSeries(),
+    loadSocial(),
   ])
 
-  _cache = { presidents, series }
+  _cache = { presidents, series, social }
   return _cache
 }
 
@@ -46,6 +47,7 @@ async function loadAllSeries() {
     { dir: path.join(ROOT, 'ipea'), tag: 'IPEA' },
     { dir: path.join(ROOT, 'ibge'), tag: 'IBGE' },
     { dir: path.join(ROOT, 'cti'),  tag: 'CTI'  },
+    { dir: path.join(ROOT, 'social'), tag: 'SOCIAL' },
     { dir: path.join(ROOT, 'tse'),  tag: 'TSE'  },
   ]
 
@@ -73,4 +75,23 @@ async function loadAllSeries() {
   }
 
   return series
+}
+
+// ── Dados sociais (estruturas especiais) ──────────────────────────────────────
+
+async function loadSocial() {
+  const dir = path.join(ROOT, 'social')
+  const result = { renda_classes: null, profissoes: null }
+
+  try {
+    const renda = JSON.parse(await fs.readFile(path.join(dir, 'renda_media_por_classe.json'), 'utf8'))
+    result.renda_classes = renda
+  } catch { /* opcional */ }
+
+  try {
+    const prof = JSON.parse(await fs.readFile(path.join(dir, 'profissoes.json'), 'utf8'))
+    result.profissoes = prof
+  } catch { /* opcional */ }
+
+  return result
 }

@@ -1,0 +1,176 @@
+{
+  "name": "renda_media_por_classe",
+  "description": "Renda domiciliar per capita média mensal real (R$) por classe social — PNAD Contínua anual",
+  "unit": "R$/mês",
+  "category": "social",
+  "subcategory": "renda_classes",
+  "source": "IBGE/PNAD Contínua",
+  "source_url": "https://sidra.ibge.gov.br/tabela/7428",
+  "class_labels": {
+    "miseraveis": "Miseráveis (até P10)",
+    "pobres": "Pobres (P10–P30)",
+    "classe_media": "Classe média (P30–P60)",
+    "alta": "Classe alta (P60–P80)",
+    "ricos": "Ricos (P80–P99)",
+    "super_ricos": "Super ricos (P99+)"
+  },
+  "note": "Classes agrupadas a partir dos percentis oficiais do IBGE (massa/população por faixa). Cobertura: 2012–2023.",
+  "fetched_at": "2026-06-26T03:50:54.801Z",
+  "count": 14,
+  "data": [
+    {
+      "date": "2012-01-01",
+      "classes": {
+        "miseraveis": 82,
+        "pobres": 230,
+        "classe_media": 461,
+        "alta": 815,
+        "ricos": 2087,
+        "super_ricos": 10355
+      }
+    },
+    {
+      "date": "2013-01-01",
+      "classes": {
+        "miseraveis": 96,
+        "pobres": 259,
+        "classe_media": 515,
+        "alta": 897,
+        "ricos": 2288,
+        "super_ricos": 10848
+      }
+    },
+    {
+      "date": "2014-01-01",
+      "classes": {
+        "miseraveis": 111,
+        "pobres": 291,
+        "classe_media": 569,
+        "alta": 986,
+        "ricos": 2497,
+        "super_ricos": 11365
+      }
+    },
+    {
+      "date": "2015-01-01",
+      "classes": {
+        "miseraveis": 114,
+        "pobres": 307,
+        "classe_media": 605,
+        "alta": 1049,
+        "ricos": 2605,
+        "super_ricos": 12219
+      }
+    },
+    {
+      "date": "2016-01-01",
+      "classes": {
+        "miseraveis": 107,
+        "pobres": 312,
+        "classe_media": 631,
+        "alta": 1109,
+        "ricos": 2850,
+        "super_ricos": 13412
+      }
+    },
+    {
+      "date": "2017-01-01",
+      "classes": {
+        "miseraveis": 102,
+        "pobres": 321,
+        "classe_media": 659,
+        "alta": 1155,
+        "ricos": 2950,
+        "super_ricos": 14116
+      }
+    },
+    {
+      "date": "2018-01-01",
+      "classes": {
+        "miseraveis": 103,
+        "pobres": 337,
+        "classe_media": 698,
+        "alta": 1232,
+        "ricos": 3171,
+        "super_ricos": 15809
+      }
+    },
+    {
+      "date": "2019-01-01",
+      "classes": {
+        "miseraveis": 107,
+        "pobres": 354,
+        "classe_media": 743,
+        "alta": 1307,
+        "ricos": 3299,
+        "super_ricos": 16848
+      }
+    },
+    {
+      "date": "2020-01-01",
+      "classes": {
+        "miseraveis": 127,
+        "pobres": 393,
+        "classe_media": 762,
+        "alta": 1290,
+        "ricos": 3198,
+        "super_ricos": 15811
+      }
+    },
+    {
+      "date": "2021-01-01",
+      "classes": {
+        "miseraveis": 94,
+        "pobres": 352,
+        "classe_media": 737,
+        "alta": 1308,
+        "ricos": 3314,
+        "super_ricos": 15927
+      }
+    },
+    {
+      "date": "2022-01-01",
+      "classes": {
+        "miseraveis": 162,
+        "pobres": 462,
+        "classe_media": 903,
+        "alta": 1539,
+        "ricos": 3776,
+        "super_ricos": 17307
+      }
+    },
+    {
+      "date": "2023-01-01",
+      "classes": {
+        "miseraveis": 210,
+        "pobres": 543,
+        "classe_media": 1049,
+        "alta": 1780,
+        "ricos": 4396,
+        "super_ricos": 20467
+      }
+    },
+    {
+      "date": "2024-01-01",
+      "classes": {
+        "miseraveis": 248,
+        "pobres": 618,
+        "classe_media": 1174,
+        "alta": 1987,
+        "ricos": 4752,
+        "super_ricos": 21630
+      }
+    },
+    {
+      "date": "2025-01-01",
+      "classes": {
+        "miseraveis": 268,
+        "pobres": 680,
+        "classe_media": 1299,
+        "alta": 2204,
+        "ricos": 5372,
+        "super_ricos": 24975
+      }
+    }
+  ]
+}

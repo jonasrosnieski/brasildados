@@ -1,0 +1,183 @@
+{
+  "name": "profissoes_pnad",
+  "description": "Grupamentos ocupacionais PNAD — rendimento médio e pessoas ocupadas",
+  "unit": "R$/mês",
+  "category": "social",
+  "subcategory": "profissoes",
+  "source": "IBGE/PNAD Contínua",
+  "source_url": "https://sidra.ibge.gov.br/tabela/5444",
+  "reference_year": "202304",
+  "fetched_at": "2026-06-26T03:50:54.849Z",
+  "top_by_income": [
+    {
+      "name": "Diretores e gerentes",
+      "income_monthly_brl": 9043,
+      "employed_thousands": 3358
+    },
+    {
+      "name": "Membros das forças armadas, policiais e bombeiros militares",
+      "income_monthly_brl": 7171,
+      "employed_thousands": 780
+    },
+    {
+      "name": "Profissionais das ciências e intelectuais",
+      "income_monthly_brl": 6717,
+      "employed_thousands": 12601
+    },
+    {
+      "name": "Ocupações mal definidas",
+      "income_monthly_brl": 4999,
+      "employed_thousands": 24
+    },
+    {
+      "name": "Técnicos e profissionais de nível médio",
+      "income_monthly_brl": 4150,
+      "employed_thousands": 8591
+    },
+    {
+      "name": "Operadores de instalações e máquinas e montadores",
+      "income_monthly_brl": 2613,
+      "employed_thousands": 9081
+    },
+    {
+      "name": "Trabalhadores de apoio administrativo",
+      "income_monthly_brl": 2490,
+      "employed_thousands": 8357
+    },
+    {
+      "name": "Trabalhadores qualificados, operários e artesões da construção, das artes mecânicas e outros ofícios",
+      "income_monthly_brl": 2466,
+      "employed_thousands": 13091
+    },
+    {
+      "name": "Trabalhadores dos serviços, vendedores dos comércios e mercados",
+      "income_monthly_brl": 2366,
+      "employed_thousands": 21949
+    },
+    {
+      "name": "Trabalhadores qualificados da agropecuária, florestais, da caça e da pesca",
+      "income_monthly_brl": 2225,
+      "employed_thousands": 5016
+    },
+    {
+      "name": "Ocupações elementares",
+      "income_monthly_brl": 1509,
+      "employed_thousands": 16214
+    }
+  ],
+  "top_by_popularity": [
+    {
+      "name": "Trabalhadores dos serviços, vendedores dos comércios e mercados",
+      "income_monthly_brl": 2366,
+      "employed_thousands": 21949
+    },
+    {
+      "name": "Ocupações elementares",
+      "income_monthly_brl": 1509,
+      "employed_thousands": 16214
+    },
+    {
+      "name": "Trabalhadores qualificados, operários e artesões da construção, das artes mecânicas e outros ofícios",
+      "income_monthly_brl": 2466,
+      "employed_thousands": 13091
+    },
+    {
+      "name": "Profissionais das ciências e intelectuais",
+      "income_monthly_brl": 6717,
+      "employed_thousands": 12601
+    },
+    {
+      "name": "Operadores de instalações e máquinas e montadores",
+      "income_monthly_brl": 2613,
+      "employed_thousands": 9081
+    },
+    {
+      "name": "Técnicos e profissionais de nível médio",
+      "income_monthly_brl": 4150,
+      "employed_thousands": 8591
+    },
+    {
+      "name": "Trabalhadores de apoio administrativo",
+      "income_monthly_brl": 2490,
+      "employed_thousands": 8357
+    },
+    {
+      "name": "Trabalhadores qualificados da agropecuária, florestais, da caça e da pesca",
+      "income_monthly_brl": 2225,
+      "employed_thousands": 5016
+    },
+    {
+      "name": "Diretores e gerentes",
+      "income_monthly_brl": 9043,
+      "employed_thousands": 3358
+    },
+    {
+      "name": "Membros das forças armadas, policiais e bombeiros militares",
+      "income_monthly_brl": 7171,
+      "employed_thousands": 780
+    },
+    {
+      "name": "Ocupações mal definidas",
+      "income_monthly_brl": 4999,
+      "employed_thousands": 24
+    }
+  ],
+  "all": [
+    {
+      "name": "Diretores e gerentes",
+      "income_monthly_brl": 9043,
+      "employed_thousands": 3358
+    },
+    {
+      "name": "Profissionais das ciências e intelectuais",
+      "income_monthly_brl": 6717,
+      "employed_thousands": 12601
+    },
+    {
+      "name": "Técnicos e profissionais de nível médio",
+      "income_monthly_brl": 4150,
+      "employed_thousands": 8591
+    },
+    {
+      "name": "Trabalhadores de apoio administrativo",
+      "income_monthly_brl": 2490,
+      "employed_thousands": 8357
+    },
+    {
+      "name": "Trabalhadores dos serviços, vendedores dos comércios e mercados",
+      "income_monthly_brl": 2366,
+      "employed_thousands": 21949
+    },
+    {
+      "name": "Trabalhadores qualificados da agropecuária, florestais, da caça e da pesca",
+      "income_monthly_brl": 2225,
+      "employed_thousands": 5016
+    },
+    {
+      "name": "Trabalhadores qualificados, operários e artesões da construção, das artes mecânicas e outros ofícios",
+      "income_monthly_brl": 2466,
+      "employed_thousands": 13091
+    },
+    {
+      "name": "Operadores de instalações e máquinas e montadores",
+      "income_monthly_brl": 2613,
+      "employed_thousands": 9081
+    },
+    {
+      "name": "Ocupações elementares",
+      "income_monthly_brl": 1509,
+      "employed_thousands": 16214
+    },
+    {
+      "name": "Membros das forças armadas, policiais e bombeiros militares",
+      "income_monthly_brl": 7171,
+      "employed_thousands": 780
+    },
+    {
+      "name": "Ocupações mal definidas",
+      "income_monthly_brl": 4999,
+      "employed_thousands": 24
+    }
+  ],
+  "count": 11
+}

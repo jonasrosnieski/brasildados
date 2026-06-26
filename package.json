@@ -8,7 +8,7 @@
     "ingest:ipea": "node ingest/ipea.mjs",
     "ingest:tse": "node ingest/tse.mjs",
     "ingest:ibge": "node ingest/ibge.mjs",
-    "ingest:cti": "node ingest/cti.mjs",
+    "ingest:social": "node ingest/social.mjs",
     "ingest:all": "node ingest/presidents.mjs && node ingest/bcb.mjs && node ingest/ipea.mjs && node ingest/ibge.mjs && node ingest/cti.mjs && node ingest/tse.mjs",
     "photos": "node tools/fetch-president-photos.mjs",
     "presidents": "node ingest/presidents.mjs",

@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-06-26T03:50:54.648Z",
+  "source": "IBGE PNAD Contínua",
+  "series": [
+    {
+      "name": "renda_media_por_classe",
+      "count": 14,
+      "file": "renda_media_por_classe.json"
+    },
+    {
+      "name": "profissoes_pnad",
+      "count": 11,
+      "file": "profissoes.json"
+    }
+  ]
+}

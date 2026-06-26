@@ -17,7 +17,7 @@
 
 import http from 'http'
 import { loadAll } from './data.mjs'
-import { annotate, aggregateByPresident } from './presidents.mjs'
+import { annotate, aggregateByPresident, presidentAt } from './presidents.mjs'
 import { computeAllRankings, presidentCard, RANKING_DEFS } from './rankings.mjs'
 
 const PORT = process.env.PORT ?? 3737
@@ -59,6 +59,10 @@ function route(req, res) {
     if (r0 === 'compare')  return send(res, compare(url.searchParams))
     if (r0 === 'summary')  return send(res, summary())
 
+    if (r0 === 'social' && r1 === 'renda-classes') return send(res, socialRendaClasses())
+    if (r0 === 'social' && r1 === 'renda-mandatos') return send(res, socialRendaMandatos())
+    if (r0 === 'social' && r1 === 'profissoes')    return send(res, socialProfissoes())
+
     return send(res, { error: 'Not found' }, 404)
   } catch (err) {
     return send(res, { error: err.message, stack: err.stack }, 500)
@@ -83,6 +87,9 @@ function rootInfo() {
       { method: 'GET', path: '/rankings/:id',              description: 'Ranking completo. Ex: /rankings/inflacao_media' },
       { method: 'GET', path: '/compare?slugs=a,b&indicator=inflacao_media', description: 'Compara presidentes num indicador' },
       { method: 'GET', path: '/summary',                   description: 'Tabela resumo: todos presidentes × todos indicadores' },
+      { method: 'GET', path: '/social/renda-classes',      description: 'Renda média por classe social (série anual)' },
+      { method: 'GET', path: '/social/renda-mandatos',     description: 'Renda média por classe, agregada por mandato presidencial' },
+      { method: 'GET', path: '/social/profissoes',         description: 'Profissões — mais populares e maiores salários' },
     ],
     examples: [
       '/presidents/lula-1',
@@ -104,6 +111,83 @@ function health() {
     series:     Object.keys(DB.series).length,
     rankings:   Object.keys(DB.rankings).length,
     series_list: Object.keys(DB.series),
+    social:      DB.social?.renda_classes ? 'loaded' : 'missing',
+  }
+}
+
+function socialRendaClasses() {
+  const r = DB.social?.renda_classes
+  if (!r) return notFound('Dados de renda por classe não carregados. Execute: npm run ingest:social')
+  return r
+}
+
+function socialProfissoes() {
+  const p = DB.social?.profissoes
+  if (!p) return notFound('Dados de profissões não carregados. Execute: npm run ingest:social')
+  return p
+}
+
+function socialRendaMandatos() {
+  const r = DB.social?.renda_classes
+  if (!r) return notFound('Dados de renda por classe não carregados')
+
+  const classKeys = Object.keys(r.class_labels ?? {})
+  const byPresident = {}
+
+  for (const point of r.data) {
+    const date = new Date(point.date)
+    const pres = presidentAt(date, DB.presidents)
+    if (!pres) continue
+
+    if (!byPresident[pres.slug]) {
+      byPresident[pres.slug] = {
+        slug: pres.slug,
+        name: pres.name,
+        party: pres.party,
+        term_start: pres.term_start.toISOString().slice(0, 10),
+        term_end: pres.term_end?.toISOString().slice(0, 10) ?? null,
+        era: pres.era,
+        regime: pres.regime,
+        years: [],
+        classes: Object.fromEntries(classKeys.map(k => [k, []])),
+      }
+    }
+
+    const entry = byPresident[pres.slug]
+    entry.years.push(point.date.slice(0, 4))
+    for (const key of classKeys) {
+      if (point.classes[key] != null) entry.classes[key].push(point.classes[key])
+    }
+  }
+
+  const mandatos = Object.values(byPresident).map(m => {
+    const averages = {}
+    for (const key of classKeys) {
+      const vals = m.classes[key]
+      averages[key] = vals.length > 0
+        ? Math.round(vals.reduce((a, b) => a + b, 0) / vals.length)
+        : null
+    }
+    return {
+      slug: m.slug,
+      name: m.name,
+      party: m.party,
+      term: `${m.term_start.slice(0, 4)}–${m.term_end?.slice(0, 4) ?? '...'}`,
+      term_start: m.term_start,
+      term_end: m.term_end,
+      era: m.era,
+      regime: m.regime,
+      years_covered: m.years,
+      averages,
+    }
+  }).sort((a, b) => a.term_start.localeCompare(b.term_start))
+
+  return {
+    unit: r.unit,
+    class_labels: r.class_labels,
+    description: r.description,
+    source: r.source,
+    mandatos,
   }
 }
 
