@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-26T03:24:57.384Z",
+  "fetched_at": "2026-06-26T03:37:08.331Z",
   "sources": [
     "World Bank Open Data",
     "IPEADATA"
@@ -22,6 +22,18 @@
       "file": "patentes_residentes.json",
       "count": 42,
       "range": "1980-01-01 → 2021-01-01"
+    },
+    {
+      "name": "exportacoes_alta_tecnologia_pct",
+      "file": "exportacoes_alta_tecnologia_pct.json",
+      "count": 18,
+      "range": "2007-01-01 → 2024-01-01"
+    },
+    {
+      "name": "gasto_pd_usd",
+      "file": "gasto_pd_usd.json",
+      "count": 0,
+      "range": "vazio"
     },
     {
       "name": "gasto_federal_cti_direto",

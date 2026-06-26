@@ -1,0 +1,12 @@
+{
+  "code": "GB.XPD.RSDV.GDP",
+  "name": "gasto_pd_usd",
+  "description": "Gasto em P&D (US$ correntes)",
+  "unit": "US$",
+  "category": "ciencia_tecnologia",
+  "subcategory": "investimento",
+  "source": "World Bank",
+  "fetched_at": "2026-06-26T03:37:11.320Z",
+  "count": 0,
+  "data": []
+}

@@ -1,0 +1,103 @@
+{
+  "code": "TX.VAL.TECH.MF.ZS",
+  "name": "exportacoes_alta_tecnologia_pct",
+  "description": "Exportações de alta tecnologia (% das exportações manufatureiras)",
+  "unit": "%",
+  "category": "ciencia_tecnologia",
+  "subcategory": "inovacao",
+  "source": "World Bank",
+  "fetched_at": "2026-06-26T03:37:10.561Z",
+  "count": 18,
+  "data": [
+    {
+      "date": "2007-01-01",
+      "value": 12.6278356939529,
+      "source": "World Bank"
+    },
+    {
+      "date": "2008-01-01",
+      "value": 12.761526959305,
+      "source": "World Bank"
+    },
+    {
+      "date": "2009-01-01",
+      "value": 14.7587820517537,
+      "source": "World Bank"
+    },
+    {
+      "date": "2010-01-01",
+      "value": 12.590146869358,
+      "source": "World Bank"
+    },
+    {
+      "date": "2011-01-01",
+      "value": 11.1409081379377,
+      "source": "World Bank"
+    },
+    {
+      "date": "2012-01-01",
+      "value": 11.8872212915256,
+      "source": "World Bank"
+    },
+    {
+      "date": "2013-01-01",
+      "value": 11.9698618012495,
+      "source": "World Bank"
+    },
+    {
+      "date": "2014-01-01",
+      "value": 12.3711688680768,
+      "source": "World Bank"
+    },
+    {
+      "date": "2015-01-01",
+      "value": 14.4858996246715,
+      "source": "World Bank"
+    },
+    {
+      "date": "2016-01-01",
+      "value": 16.0001642772964,
+      "source": "World Bank"
+    },
+    {
+      "date": "2017-01-01",
+      "value": 14.3118892236086,
+      "source": "World Bank"
+    },
+    {
+      "date": "2018-01-01",
+      "value": 14.7442418256611,
+      "source": "World Bank"
+    },
+    {
+      "date": "2019-01-01",
+      "value": 14.0668052120423,
+      "source": "World Bank"
+    },
+    {
+      "date": "2020-01-01",
+      "value": 11.3500942678804,
+      "source": "World Bank"
+    },
+    {
+      "date": "2021-01-01",
+      "value": 9.00155420026002,
+      "source": "World Bank"
+    },
+    {
+      "date": "2022-01-01",
+      "value": 9.11134627987528,
+      "source": "World Bank"
+    },
+    {
+      "date": "2023-01-01",
+      "value": 9.849149349554,
+      "source": "World Bank"
+    },
+    {
+      "date": "2024-01-01",
+      "value": 11.1103644206652,
+      "source": "World Bank"
+    }
+  ]
+}

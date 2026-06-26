@@ -39,8 +39,20 @@ const WB_INDICATORS = [
     subcategory: 'inovacao',
   },
   {
-    code: 'GB.XPD.RSDV.GD.ZS?mrv=1',
-    name: '_skip',
+    code: 'TX.VAL.TECH.MF.ZS',
+    name: 'exportacoes_alta_tecnologia_pct',
+    description: 'Exportações de alta tecnologia (% das exportações manufatureiras)',
+    unit: '%',
+    category: 'ciencia_tecnologia',
+    subcategory: 'inovacao',
+  },
+  {
+    code: 'GB.XPD.RSDV.GDP',
+    name: 'gasto_pd_usd',
+    description: 'Gasto em P&D (US$ correntes)',
+    unit: 'US$',
+    category: 'ciencia_tecnologia',
+    subcategory: 'investimento',
   },
 ]
 
@@ -189,7 +201,6 @@ async function run() {
 
   console.log('=== World Bank — indicadores CT&I ===\n')
   for (const ind of WB_INDICATORS) {
-    if (ind.name === '_skip') continue
     try {
       const data = await fetchWorldBank(ind)
       const entry = await writeSeries(ind, data, 'World Bank')

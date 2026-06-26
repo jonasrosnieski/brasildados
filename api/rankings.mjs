@@ -249,6 +249,18 @@ const RANKING_DEFS = [
     unit:         'número',
     better:       'maior',
   },
+  {
+    id:           'exportacoes_alta_tech_media',
+    serie:        'exportacoes_alta_tecnologia_pct',
+    metric:       'mean',
+    order:        'desc',
+    category:     'ciencia_tecnologia',
+    subcategory:  'inovacao',
+    title:        'Exportações de alta tecnologia — média no mandato (%)',
+    description:  'Média da participação de exportações de alta tecnologia nas manufaturadas (World Bank).',
+    unit:         '%',
+    better:       'maior',
+  },
 ]
 
 /**
